@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>NetworkTrips</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+    <title>Network Trips</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 </head>
 <body>
 
-<%= yield %>
+    <div id='header-background'>
+        <header>
+            <h1>Network Trips</h1>
+            <h2>Explore and Socialise</h2>
+            <div style='clear:both' />
+        </header>
+    </div>
 
+    <%= yield %>
+
+    <footer>
+        Contact Us - Network Trips is registered with companies house - <a href='/image_credits.html'>Image Credits</a>
+    </footer>
 </body>
 </html>
