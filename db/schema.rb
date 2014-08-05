@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140805013413) do
+ActiveRecord::Schema.define(version: 20140805022102) do
 
   create_table "tickets", force: true do |t|
     t.integer  "for"
@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(version: 20140805013413) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "password_digest"
+    t.string   "profile_picture"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

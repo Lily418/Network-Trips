@@ -1,1 +1,14 @@
-<p>5 people are going</p>
+<div id='social-box'>
+    <p id='attending'><%= @users.count %> <%= @users.count == 1 ? "person is" :  "people are" %>  going</p>
+    <div id='users'>
+        <div id='user-images'>
+        <% for user in @users %>
+        <div class='user'>
+            <p class='name'><%= user.name %></p>
+            <img src='<%= user.profile_picture %>' />
+        </div>
+        <% end %>
+        </div>
+</div>
+<div style='clear:both'></div>
+</div>

@@ -134,3 +134,48 @@
 [08/05/14 02:32:38 +0100 Joels-MacBook-Pro-2.local (19048)] INFO : Starting Agent shutdown
 [08/05/14 02:34:13 +0100 Joels-MacBook-Pro-2.local (19076)] INFO : Starting Agent shutdown
 [08/05/14 02:45:42 +0100 Joels-MacBook-Pro-2.local (19182)] INFO : Starting Agent shutdown
+[08/05/14 03:09:35 +0100 Joels-MacBook-Pro-2.local (19339)] INFO : Starting Agent shutdown
+[08/05/14 03:09:37 +0100 Joels-MacBook-Pro-2.local (18579)] INFO : Starting Agent shutdown
+[08/05/14 03:13:59 +0100 Joels-MacBook-Pro-2.local (14018)] INFO : Starting Agent shutdown
+[08/05/14 03:14:04 +0100 Joels-MacBook-Pro-2.local (20025)] INFO : Starting the New Relic agent in "development" environment.
+[08/05/14 03:14:04 +0100 Joels-MacBook-Pro-2.local (20025)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/05/14 03:14:04 +0100 Joels-MacBook-Pro-2.local (20025)] INFO : Reading configuration from config/newrelic.yml
+[08/05/14 03:14:04 +0100 Joels-MacBook-Pro-2.local (20025)] INFO : New Relic Agent Developer Mode enabled.
+[08/05/14 03:14:04 +0100 Joels-MacBook-Pro-2.local (20025)] INFO : Environment: development
+[08/05/14 03:14:04 +0100 Joels-MacBook-Pro-2.local (20025)] INFO : Dispatcher: webrick
+[08/05/14 03:14:04 +0100 Joels-MacBook-Pro-2.local (20025)] INFO : Application: My Application (Development)
+[08/05/14 03:14:04 +0100 Joels-MacBook-Pro-2.local (20025)] INFO : Installing ActiveRecord 4 instrumentation
+[08/05/14 03:14:04 +0100 Joels-MacBook-Pro-2.local (20025)] INFO : Installing Net instrumentation
+[08/05/14 03:14:04 +0100 Joels-MacBook-Pro-2.local (20025)] INFO : Installing deferred Rack instrumentation
+[08/05/14 03:14:04 +0100 Joels-MacBook-Pro-2.local (20025)] INFO : Installing Rack::Builder middleware instrumentation
+[08/05/14 03:14:04 +0100 Joels-MacBook-Pro-2.local (20025)] INFO : Installing Rails 3+ middleware instrumentation
+[08/05/14 03:14:04 +0100 Joels-MacBook-Pro-2.local (20025)] INFO : Installing Rails 4 Controller instrumentation
+[08/05/14 03:14:04 +0100 Joels-MacBook-Pro-2.local (20025)] INFO : Installing Rails 4 view instrumentation
+[08/05/14 03:14:04 +0100 Joels-MacBook-Pro-2.local (20025)] INFO : Installing Rails 4 Error instrumentation
+[08/05/14 03:14:04 +0100 Joels-MacBook-Pro-2.local (20025)] INFO : Finished instrumentation
+[08/05/14 03:14:04 +0100 Joels-MacBook-Pro-2.local (20025)] INFO : Doing deferred dependency-detection before Rack startup
+[08/05/14 03:14:05 +0100 Joels-MacBook-Pro-2.local (20025)] INFO : Reporting to: https://rpm.newrelic.com/accounts/445162/applications/4640754
+[08/05/14 03:21:01 +0100 Joels-MacBook-Pro-2.local (20158)] INFO : Starting the New Relic agent in "development" environment.
+[08/05/14 03:21:01 +0100 Joels-MacBook-Pro-2.local (20158)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/05/14 03:21:01 +0100 Joels-MacBook-Pro-2.local (20158)] INFO : Reading configuration from config/newrelic.yml
+[08/05/14 03:21:01 +0100 Joels-MacBook-Pro-2.local (20158)] INFO : New Relic Agent Developer Mode enabled.
+[08/05/14 03:21:01 +0100 Joels-MacBook-Pro-2.local (20158)] INFO : Environment: development
+[08/05/14 03:21:01 +0100 Joels-MacBook-Pro-2.local (20158)] INFO : No known dispatcher detected.
+[08/05/14 03:21:01 +0100 Joels-MacBook-Pro-2.local (20158)] INFO : Application: My Application (Development)
+[08/05/14 03:21:01 +0100 Joels-MacBook-Pro-2.local (20158)] INFO : Installing ActiveRecord 4 instrumentation
+[08/05/14 03:21:01 +0100 Joels-MacBook-Pro-2.local (20158)] INFO : Installing Net instrumentation
+[08/05/14 03:21:01 +0100 Joels-MacBook-Pro-2.local (20158)] INFO : Installing deferred Rack instrumentation
+[08/05/14 03:21:01 +0100 Joels-MacBook-Pro-2.local (20158)] INFO : Installing Rack::Builder middleware instrumentation
+[08/05/14 03:21:01 +0100 Joels-MacBook-Pro-2.local (20158)] INFO : Installing Rails 3+ middleware instrumentation
+[08/05/14 03:21:01 +0100 Joels-MacBook-Pro-2.local (20158)] INFO : Installing Rails 4 Controller instrumentation
+[08/05/14 03:21:02 +0100 Joels-MacBook-Pro-2.local (20158)] INFO : Installing Rails 4 view instrumentation
+[08/05/14 03:21:02 +0100 Joels-MacBook-Pro-2.local (20158)] INFO : Installing Rails 4 Error instrumentation
+[08/05/14 03:21:02 +0100 Joels-MacBook-Pro-2.local (20158)] INFO : Finished instrumentation
+[08/05/14 03:21:02 +0100 Joels-MacBook-Pro-2.local (20162)] INFO : Starting Agent shutdown
+[08/05/14 03:21:03 +0100 Joels-MacBook-Pro-2.local (20158)] INFO : Reporting to: https://rpm.newrelic.com/accounts/445162/applications/4640754
+[08/05/14 03:33:04 +0100 Joels-MacBook-Pro-2.local (20186)] INFO : Starting Agent shutdown
+[08/05/14 03:35:07 +0100 Joels-MacBook-Pro-2.local (20390)] INFO : Starting Agent shutdown
+[08/05/14 03:59:36 +0100 Joels-MacBook-Pro-2.local (20423)] INFO : Starting Agent shutdown
+[08/05/14 04:01:48 +0100 Joels-MacBook-Pro-2.local (20876)] INFO : Starting Agent shutdown
+[08/05/14 04:02:05 +0100 Joels-MacBook-Pro-2.local (20918)] INFO : Starting Agent shutdown
+[08/05/14 05:49:19 +0100 Joels-MacBook-Pro-2.local (20931)] INFO : Starting Agent shutdown
