@@ -179,3 +179,39 @@
 [08/05/14 04:01:48 +0100 Joels-MacBook-Pro-2.local (20876)] INFO : Starting Agent shutdown
 [08/05/14 04:02:05 +0100 Joels-MacBook-Pro-2.local (20918)] INFO : Starting Agent shutdown
 [08/05/14 05:49:19 +0100 Joels-MacBook-Pro-2.local (20931)] INFO : Starting Agent shutdown
+[08/05/14 16:13:56 +0100 Joels-MacBook-Pro-2.local (20158)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 16:13:56 +0100 Joels-MacBook-Pro-2.local (20158)] ERROR : Errno::ENETDOWN: Network is down - connect(2) for "collector-110.newrelic.com" port 443
+[08/05/14 16:13:58 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 16:13:58 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[08/05/14 16:14:03 +0100 Joels-MacBook-Pro-2.local (20158)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 16:14:03 +0100 Joels-MacBook-Pro-2.local (20158)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[08/05/14 16:14:05 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 16:14:05 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[08/05/14 16:17:11 +0100 Joels-MacBook-Pro-2.local (20158)] INFO : Starting Agent shutdown
+[08/05/14 16:18:55 +0100 Joels-MacBook-Pro-2.local (23756)] INFO : Starting the New Relic agent in "development" environment.
+[08/05/14 16:18:55 +0100 Joels-MacBook-Pro-2.local (23756)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/05/14 16:18:55 +0100 Joels-MacBook-Pro-2.local (23756)] INFO : Reading configuration from config/newrelic.yml
+[08/05/14 16:18:55 +0100 Joels-MacBook-Pro-2.local (23756)] INFO : New Relic Agent Developer Mode enabled.
+[08/05/14 16:18:55 +0100 Joels-MacBook-Pro-2.local (23756)] INFO : Environment: development
+[08/05/14 16:18:55 +0100 Joels-MacBook-Pro-2.local (23756)] INFO : No known dispatcher detected.
+[08/05/14 16:18:55 +0100 Joels-MacBook-Pro-2.local (23756)] INFO : Application: My Application (Development)
+[08/05/14 16:18:55 +0100 Joels-MacBook-Pro-2.local (23756)] INFO : Installing ActiveRecord 4 instrumentation
+[08/05/14 16:18:55 +0100 Joels-MacBook-Pro-2.local (23756)] INFO : Installing Net instrumentation
+[08/05/14 16:18:55 +0100 Joels-MacBook-Pro-2.local (23756)] INFO : Installing deferred Rack instrumentation
+[08/05/14 16:18:55 +0100 Joels-MacBook-Pro-2.local (23756)] INFO : Installing Rack::Builder middleware instrumentation
+[08/05/14 16:18:55 +0100 Joels-MacBook-Pro-2.local (23756)] INFO : Installing Rails 3+ middleware instrumentation
+[08/05/14 16:18:55 +0100 Joels-MacBook-Pro-2.local (23756)] INFO : Installing Rails 4 Controller instrumentation
+[08/05/14 16:18:55 +0100 Joels-MacBook-Pro-2.local (23756)] INFO : Installing Rails 4 view instrumentation
+[08/05/14 16:18:55 +0100 Joels-MacBook-Pro-2.local (23756)] INFO : Installing Rails 4 Error instrumentation
+[08/05/14 16:18:55 +0100 Joels-MacBook-Pro-2.local (23756)] INFO : Finished instrumentation
+[08/05/14 16:18:55 +0100 Joels-MacBook-Pro-2.local (23760)] INFO : Starting Agent shutdown
+[08/05/14 16:18:57 +0100 Joels-MacBook-Pro-2.local (23756)] INFO : Reporting to: https://rpm.newrelic.com/accounts/445162/applications/4640754
+[08/05/14 16:33:07 +0100 Joels-MacBook-Pro-2.local (23820)] INFO : Starting Agent shutdown
+[08/05/14 16:33:10 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 16:33:10 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[08/05/14 16:40:07 +0100 Joels-MacBook-Pro-2.local (24028)] INFO : Starting Agent shutdown
+[08/05/14 16:42:09 +0100 Joels-MacBook-Pro-2.local (24147)] INFO : Starting Agent shutdown
+[08/05/14 16:49:09 +0100 Joels-MacBook-Pro-2.local (24193)] INFO : Starting Agent shutdown
+[08/05/14 16:50:07 +0100 Joels-MacBook-Pro-2.local (24343)] INFO : Starting Agent shutdown
+[08/05/14 16:54:01 +0100 Joels-MacBook-Pro-2.local (24364)] INFO : Starting Agent shutdown
+[08/05/14 16:59:37 +0100 Joels-MacBook-Pro-2.local (24434)] INFO : Starting Agent shutdown

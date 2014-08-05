@@ -9,6 +9,12 @@
         </div>
         <% end %>
         </div>
+        <div style='clear:both'></div>
+        <div id='recent-comment'>
+            <% for comment in @comments %>
+            <p><span class='comment-name'><%= comment.user.name %></span> <span class='comment-says'>says</span><span class='comment-content'> "<%= comment.comment %>" <span></p>
+            <% end %>
+        </div>
 </div>
 <div style='clear:both'></div>
 </div>

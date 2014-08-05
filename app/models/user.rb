@@ -8,6 +8,7 @@ class User < ActiveRecord::Base
     validates :password, length: { minimum: 6 }
     has_many :tickets
     has_many :trips, through: :tickets
+    has_many :comments
 
     def profile_picture
         "https://gravatar.com/avatar/" + Digest::MD5.hexdigest(self.email.strip.downcase)

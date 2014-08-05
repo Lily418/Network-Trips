@@ -116,3 +116,12 @@ footer {
 .name {
     text-align:center;
 }
+
+#recent-comment {
+    margin-left:30px;
+    margin-right:30px;
+}
+
+.comment-content {
+    
+}
