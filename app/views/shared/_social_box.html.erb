@@ -1,20 +1,18 @@
 <div id='social-box'>
     <p id='attending'><%= @users.count %> <%= @users.count == 1 ? "person is" :  "people are" %>  going</p>
-    <div id='users'>
+    <div class='row' id='users'>
         <div id='user-images'>
-        <% for user in @users %>
-        <div class='user'>
-            <p class='name'><%= user.name %></p>
-            <img src='<%= user.profile_picture %>' />
-        </div>
-        <% end %>
-        </div>
-        <div style='clear:both'></div>
-        <div id='recent-comment'>
-            <% for comment in @comments %>
-            <p><span class='comment-name'><%= comment.user.name %></span> <span class='comment-says'>says</span><span class='comment-content'> "<%= comment.comment %>" <span></p>
+            <% for user in @users %>
+            <div class='col-md-2'>
+                <p class='name'><%= user.name %></p>
+                <img class='user-image' src='<%= user.profile_picture %>' />
+            </div>
             <% end %>
         </div>
-</div>
-<div style='clear:both'></div>
+    </div>
+    <div id='recent-comment'>
+        <% for comment in @comments %>
+        <p><span class='comment-name'><%= comment.user.name %></span> <span class='comment-says'>says</span><span class='comment-content'> "<%= comment.comment %>" </span></p>
+            <% end %>
+    </div>
 </div>

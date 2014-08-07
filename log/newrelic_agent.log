@@ -215,3 +215,88 @@
 [08/05/14 16:50:07 +0100 Joels-MacBook-Pro-2.local (24343)] INFO : Starting Agent shutdown
 [08/05/14 16:54:01 +0100 Joels-MacBook-Pro-2.local (24364)] INFO : Starting Agent shutdown
 [08/05/14 16:59:37 +0100 Joels-MacBook-Pro-2.local (24434)] INFO : Starting Agent shutdown
+[08/05/14 17:09:25 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 17:09:25 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[08/05/14 17:10:18 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 17:10:18 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[08/05/14 17:10:28 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 17:10:28 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[08/05/14 17:11:36 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 17:11:36 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[08/05/14 17:11:36 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 17:11:36 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[08/05/14 17:12:28 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 17:12:28 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[08/05/14 17:12:36 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 17:12:36 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[08/05/14 17:13:20 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 17:13:20 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[08/05/14 17:13:29 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 17:13:29 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[08/05/14 17:14:19 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 17:14:19 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[08/05/14 17:16:05 +0100 Joels-MacBook-Pro-2.local (20025)] WARN : Timed out opening connection to collector after 120.000745 seconds. If this problem persists, please see http://status.newrelic.com
+[08/05/14 17:16:05 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 17:16:05 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Timeout::Error: execution expired
+[08/05/14 17:20:19 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 17:20:19 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[08/05/14 17:20:41 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 17:20:41 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[08/05/14 17:58:19 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 17:58:19 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[08/05/14 17:58:33 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 17:58:33 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[08/05/14 18:00:27 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 18:00:27 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[08/05/14 18:00:35 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 18:00:35 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[08/05/14 18:01:27 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 18:01:27 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[08/05/14 18:01:38 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 18:01:38 +0100 Joels-MacBook-Pro-2.local (20025)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[08/05/14 18:03:24 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 18:03:24 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[08/05/14 18:04:00 +0100 Joels-MacBook-Pro-2.local (20025)] INFO : Starting Agent shutdown
+[08/05/14 18:04:00 +0100 Joels-MacBook-Pro-2.local (23756)] INFO : Starting Agent shutdown
+[08/05/14 18:04:00 +0100 Joels-MacBook-Pro-2.local (24912)] INFO : Starting Agent shutdown
+[08/05/14 18:04:10 +0100 Joels-MacBook-Pro-2.local (20025)] WARN : Timed out opening connection to collector after 10.001227 seconds. If this problem persists, please see http://status.newrelic.com
+[08/05/14 18:04:11 +0100 Joels-MacBook-Pro-2.local (24912)] WARN : Timed out opening connection to collector after 10.003762 seconds. If this problem persists, please see http://status.newrelic.com
+[08/05/14 18:04:21 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Error running task in Agent Worker Loop:
+[08/05/14 18:04:21 +0100 Joels-MacBook-Pro-2.local (23756)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[08/05/14 23:49:45 +0100 Joels-MacBook-Pro-2.local (929)] INFO : Starting the New Relic agent in "development" environment.
+[08/05/14 23:49:45 +0100 Joels-MacBook-Pro-2.local (929)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/05/14 23:49:45 +0100 Joels-MacBook-Pro-2.local (929)] INFO : Reading configuration from config/newrelic.yml
+[08/05/14 23:49:46 +0100 Joels-MacBook-Pro-2.local (929)] INFO : New Relic Agent Developer Mode enabled.
+[08/05/14 23:49:46 +0100 Joels-MacBook-Pro-2.local (929)] INFO : Environment: development
+[08/05/14 23:49:46 +0100 Joels-MacBook-Pro-2.local (929)] INFO : Dispatcher: webrick
+[08/05/14 23:49:46 +0100 Joels-MacBook-Pro-2.local (929)] INFO : Application: My Application (Development)
+[08/05/14 23:49:46 +0100 Joels-MacBook-Pro-2.local (929)] INFO : Installing ActiveRecord 4 instrumentation
+[08/05/14 23:49:46 +0100 Joels-MacBook-Pro-2.local (929)] INFO : Installing Net instrumentation
+[08/05/14 23:49:46 +0100 Joels-MacBook-Pro-2.local (929)] INFO : Installing deferred Rack instrumentation
+[08/05/14 23:49:46 +0100 Joels-MacBook-Pro-2.local (929)] INFO : Installing Rack::Builder middleware instrumentation
+[08/05/14 23:49:46 +0100 Joels-MacBook-Pro-2.local (929)] INFO : Installing Rails 3+ middleware instrumentation
+[08/05/14 23:49:46 +0100 Joels-MacBook-Pro-2.local (929)] INFO : Installing Rails 4 Controller instrumentation
+[08/05/14 23:49:46 +0100 Joels-MacBook-Pro-2.local (929)] INFO : Installing Rails 4 view instrumentation
+[08/05/14 23:49:46 +0100 Joels-MacBook-Pro-2.local (929)] INFO : Installing Rails 4 Error instrumentation
+[08/05/14 23:49:46 +0100 Joels-MacBook-Pro-2.local (929)] INFO : Finished instrumentation
+[08/05/14 23:49:46 +0100 Joels-MacBook-Pro-2.local (929)] INFO : Doing deferred dependency-detection before Rack startup
+[08/05/14 23:49:47 +0100 Joels-MacBook-Pro-2.local (929)] INFO : Reporting to: https://rpm.newrelic.com/accounts/445162/applications/4640754
+[08/06/14 06:07:17 +0100 Joels-MacBook-Pro-2.local (929)] INFO : Starting Agent shutdown
+[08/07/14 00:45:38 +0100 Joels-MacBook-Pro-2.local (1558)] INFO : Starting the New Relic agent in "development" environment.
+[08/07/14 00:45:38 +0100 Joels-MacBook-Pro-2.local (1558)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/07/14 00:45:38 +0100 Joels-MacBook-Pro-2.local (1558)] INFO : Reading configuration from config/newrelic.yml
+[08/07/14 00:45:38 +0100 Joels-MacBook-Pro-2.local (1558)] INFO : New Relic Agent Developer Mode enabled.
+[08/07/14 00:45:38 +0100 Joels-MacBook-Pro-2.local (1558)] INFO : Environment: development
+[08/07/14 00:45:38 +0100 Joels-MacBook-Pro-2.local (1558)] INFO : Dispatcher: webrick
+[08/07/14 00:45:38 +0100 Joels-MacBook-Pro-2.local (1558)] INFO : Application: My Application (Development)
+[08/07/14 00:45:38 +0100 Joels-MacBook-Pro-2.local (1558)] INFO : Installing ActiveRecord 4 instrumentation
+[08/07/14 00:45:38 +0100 Joels-MacBook-Pro-2.local (1558)] INFO : Installing Net instrumentation
+[08/07/14 00:45:38 +0100 Joels-MacBook-Pro-2.local (1558)] INFO : Installing deferred Rack instrumentation
+[08/07/14 00:45:38 +0100 Joels-MacBook-Pro-2.local (1558)] INFO : Installing Rack::Builder middleware instrumentation
+[08/07/14 00:45:38 +0100 Joels-MacBook-Pro-2.local (1558)] INFO : Installing Rails 3+ middleware instrumentation
+[08/07/14 00:45:38 +0100 Joels-MacBook-Pro-2.local (1558)] INFO : Installing Rails 4 Controller instrumentation
+[08/07/14 00:45:38 +0100 Joels-MacBook-Pro-2.local (1558)] INFO : Installing Rails 4 view instrumentation
+[08/07/14 00:45:38 +0100 Joels-MacBook-Pro-2.local (1558)] INFO : Installing Rails 4 Error instrumentation
+[08/07/14 00:45:38 +0100 Joels-MacBook-Pro-2.local (1558)] INFO : Finished instrumentation
+[08/07/14 00:45:39 +0100 Joels-MacBook-Pro-2.local (1558)] INFO : Doing deferred dependency-detection before Rack startup
+[08/07/14 00:45:39 +0100 Joels-MacBook-Pro-2.local (1558)] INFO : Reporting to: https://rpm.newrelic.com/accounts/445162/applications/4640754
