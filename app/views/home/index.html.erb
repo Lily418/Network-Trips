@@ -30,3 +30,24 @@
     </div>
     </div>
 </div>
+
+<div id='where-should-we-go-next'>
+<h2 id='where-should-we-go-title-text'>Where should we go next?</h2>
+<% for place in @places %>
+<div class='place'>
+    <h3 class='place-name'><%= place.name%></h3>
+    <div class='row'>
+    <% for image in place.images %>
+    <div class='col-md-4'>
+        <img class='place-image' src='<%= image.url%>' />
+    </div>
+    <% end %>
+    </div>
+    <div class='id-like-to-go'>
+        <h4><%= place.count%> People want to go </h4>
+        <button type="button" class='id-like-to-go-button btn btn-primary' id='button<%= place.id %>'>I'd like to go</button>
+    </div>
+</div>
+<% end %>
+<div style='clear:both'></div>
+</div>

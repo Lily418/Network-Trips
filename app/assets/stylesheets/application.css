@@ -17,11 +17,14 @@ header {
     margin-right:auto;
     width:90%;
     color:white;
+    padding-top:10px;
+    padding-bottom:10px;
 
 }
 
 #header-background h1 {
     float: left;
+
 }
 
 #header-background h2 {
@@ -156,4 +159,43 @@ footer {
 
 #infomation-box {
     padding-bottom:10px;
+}
+
+h2 {
+    text-align:center;
+}
+
+#where-should-we-go-next {
+    margin-top:30px;
+    margin-bottom:80px;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;r
+}
+
+.place-image {
+    width:100%;
+}
+
+.place-name {
+    margin-bottom:10px;
+}
+
+#where-should-we-go-title-text {
+    margin-bottom:20px;
+    margin-top:50px;
+}
+
+.id-like-to-go {
+    float:right;
+    margin-top:10px;
+}
+
+.place {
+    margin-bottom:40px;
+}
+
+.id-like-to-go h4 {
+    display:inline;
+    margin-right:20px;
 }
