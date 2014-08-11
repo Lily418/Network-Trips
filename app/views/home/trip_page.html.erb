@@ -1,0 +1,32 @@
+<div id='opening-text'>
+    <h1><%= @trip.name %></h1>
+</div>
+
+<div id='trip-banner'class='row'>
+    <div class='col-md-4'>
+        <img src="<%= @trip.trip_images.first.url %>" />
+    </div>
+    <div class='col-md-4'>
+        <h2>Holiday Highlights</h2>
+        <%= @trip.highlight_text.html_safe %>
+    </div>
+    <div class='col-md-4'>
+        <div id='booking-info'>
+        <h2><%= @trip.date.mday.ordinalize + " " + @trip.date.strftime("%B") %></h2>
+        <%= @trip.booking_info.html_safe %>
+
+        <div id='booking-pane'>
+        <div id='cost-pane'>
+        <h3>Cost £69</h3>
+        <a href=''>Get a discount</a>
+
+    </div>
+
+        <a id='book-now-button' class='btn btn-lg btn-primary' href=''>Book Now</a>
+        <div style='clear:both'></div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<h2>5 Travel Buddies</h2>

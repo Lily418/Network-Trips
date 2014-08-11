@@ -170,7 +170,7 @@ h2 {
     margin-bottom:80px;
     width:80%;
     margin-left:auto;
-    margin-right:auto;r
+    margin-right:auto;
 }
 
 .place-image {
@@ -198,4 +198,37 @@ h2 {
 .id-like-to-go h4 {
     display:inline;
     margin-right:20px;
+}
+
+#trip-banner img {
+    max-width:100%;
+    max-height:400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#booking-info {
+    background-color:#eee8d0;
+    margin-left:10px;
+    margin-right:10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#booking-info h2 {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#book-now-button {
+    float:right;
+}
+
+#cost-pane {
+    float: left;
+}
+
+#booking-pane {
+    margin-top:50px;
 }

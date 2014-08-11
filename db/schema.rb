@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140807011305) do
+ActiveRecord::Schema.define(version: 20140811200350) do
 
   create_table "comments", force: true do |t|
     t.integer  "user_id"
@@ -44,11 +44,24 @@ ActiveRecord::Schema.define(version: 20140807011305) do
     t.datetime "updated_at"
   end
 
+  create_table "trip_images", force: true do |t|
+    t.string   "url"
+    t.integer  "trip_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "trips", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "page_name"
+    t.string   "highlight_text"
+    t.date     "date"
+    t.string   "booking_info"
   end
+
+  add_index "trips", ["page_name"], name: "index_trips_on_page_name", unique: true
 
   create_table "users", force: true do |t|
     t.string   "name"
