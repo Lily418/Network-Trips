@@ -49179,3 +49179,2642 @@ Processing by HomeController#trip_page as HTML
   [1m[36mTripImage Load (0.2ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
   Rendered home/trip_page.html.erb within layouts/application (9.1ms)
 Completed 200 OK in 15ms (Views: 11.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:02:18 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:02:18 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:02:18 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:02:18 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:02:18 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:02:18 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:02:18 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:04:10 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 10ms (Views: 6.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:04:10 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:04:10 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:04:10 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:04:10 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:04:10 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:04:10 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:05:25 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 10ms (Views: 7.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:05:25 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:05:25 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:05:25 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:05:25 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:05:25 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:05:25 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:06:48 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 10ms (Views: 6.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:06:48 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:06:48 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:06:48 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:06:48 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:06:48 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:06:48 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:07:34 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.3ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 9ms (Views: 6.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:07:34 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:07:34 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:07:34 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:07:34 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:07:34 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:07:34 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:08:40 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:08:40 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:08:40 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:08:40 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:08:40 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:08:40 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:08:40 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:09:35 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 10ms (Views: 6.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:09:35 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:09:35 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:09:35 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:09:35 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:09:35 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:09:35 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:09:46 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:09:46 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:09:46 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:09:46 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:09:46 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:09:46 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:09:46 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:11:50 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 8ms (Views: 5.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:11:50 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:11:50 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:11:50 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:11:50 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:11:50 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:11:50 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:11:52 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.3ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:11:52 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:11:52 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:11:52 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:11:52 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:11:52 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:11:52 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:12:34 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 26ms (Views: 23.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:12:34 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:12:34 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:12:34 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:12:34 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:12:34 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:12:34 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:13:21 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 8ms (Views: 5.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:13:21 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:13:21 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:13:21 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:13:21 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:13:21 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:13:21 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:13:23 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 9ms (Views: 6.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:13:23 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:13:23 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:13:23 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:13:23 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:13:23 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:13:23 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:13:25 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:13:25 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:13:25 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:13:25 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:13:25 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:13:25 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:13:25 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:21:55 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.2ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 10ms (Views: 7.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:21:55 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:21:55 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:21:55 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:21:55 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:21:55 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:21:55 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:22:02 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.3ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:22:02 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:22:02 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:22:02 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:22:02 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:22:02 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:22:02 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:23:43 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.3ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:23:43 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:23:43 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:23:43 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:23:43 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:23:43 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:23:43 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:24:59 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[36mTrip Load (0.3ms)[0m  [1mSELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1[0m
+  [1m[35mTripImage Load (0.1ms)[0m  SELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1  [["trip_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 21ms (Views: 18.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:24:59 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:24:59 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:24:59 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:24:59 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:24:59 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:24:59 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:25:37 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.3ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 13ms (Views: 9.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:25:37 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:25:37 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:25:37 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:25:37 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:25:37 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:25:37 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:31:15 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1[0m
+  [1m[35mTripImage Load (0.1ms)[0m  SELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1  [["trip_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 11ms (Views: 8.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:31:15 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:31:15 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:31:15 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:31:15 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:31:15 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:31:15 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:33:52 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:33:52 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:33:52 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:33:52 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:33:52 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:33:52 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:33:52 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:35:46 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1[0m
+  [1m[35mTripImage Load (0.1ms)[0m  SELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1  [["trip_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 16ms (Views: 13.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:35:47 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:35:47 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:35:47 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:35:47 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:35:47 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:35:47 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:36:43 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 12ms (Views: 7.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:36:43 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:36:43 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:36:43 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:36:43 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:36:43 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:36:43 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:39:25 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1[0m
+  [1m[35mTripImage Load (0.1ms)[0m  SELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1  [["trip_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 13ms (Views: 10.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:39:25 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:39:25 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:39:25 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:39:25 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:39:25 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:39:25 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:39:39 +0100
+Processing by HomeController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1[0m
+  [1m[35mTripImage Load (0.1ms)[0m  SELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1  [["trip_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  Rendered home/trip_page.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 11ms (Views: 8.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:39:39 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:39:39 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:39:39 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:39:39 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:39:39 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:39:39 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:43:55 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[36mTrip Load (0.1ms)[0m  [1mSELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1[0m
+  [1m[35mTripImage Load (0.2ms)[0m  SELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1  [["trip_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 244ms (Views: 217.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 22:43:55 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:43:55 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:43:55 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:43:55 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:43:55 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:43:55 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:43:55 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:44:32 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1[0m
+  [1m[35mTripImage Load (0.1ms)[0m  SELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1  [["trip_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 14ms (Views: 10.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:44:32 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:44:32 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:44:32 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:44:32 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 22:44:32 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:44:32 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:44:32 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 22:45:01 +0100
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.1ms)[0m  [1mSELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_social_box.html.erb (17.8ms)
+  [1m[35mPlace Load (0.2ms)[0m  SELECT  "places".* FROM "places"  LIMIT 3
+  [1m[36mImage Load (0.2ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 3]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (34.8ms)
+Completed 200 OK in 47ms (Views: 37.2ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:45:01 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:45:01 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:45:01 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:45:01 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 22:45:01 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:45:01 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:45:01 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:45:06 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1[0m
+  [1m[35mTripImage Load (0.1ms)[0m  SELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1  [["trip_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 13ms (Views: 9.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:45:24 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[36mTrip Load (0.1ms)[0m  [1mSELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1[0m
+  [1m[35mTripImage Load (0.2ms)[0m  SELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1  [["trip_id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 56ms (Views: 29.8ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:45:24 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:45:24 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:45:24 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:45:24 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:45:24 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 22:45:24 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:45:24 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 22:45:27 +0100
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.1ms)[0m  [1mSELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_social_box.html.erb (47.8ms)
+  [1m[35mPlace Load (0.1ms)[0m  SELECT  "places".* FROM "places"  LIMIT 3
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 3]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (62.6ms)
+Completed 200 OK in 74ms (Views: 65.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 22:45:51 +0100
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.1ms)[0m  [1mSELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_social_box.html.erb (10.8ms)
+  [1m[35mPlace Load (0.1ms)[0m  SELECT  "places".* FROM "places"  LIMIT 3
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 3]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 26ms (Views: 22.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:45:51 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:45:51 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:45:51 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:45:51 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:45:51 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 22:45:51 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:45:51 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:45:52 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[36mTrip Load (0.1ms)[0m  [1mSELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1[0m
+  [1m[35mTripImage Load (0.1ms)[0m  SELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1  [["trip_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 13ms (Views: 10.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:46:10 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[36mTrip Load (0.1ms)[0m  [1mSELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1[0m
+  [1m[35mTripImage Load (0.1ms)[0m  SELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1  [["trip_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 15ms (Views: 12.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:46:10 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:46:10 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:46:10 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 22:46:10 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:46:10 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:46:10 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:46:10 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:47:24 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1[0m
+  [1m[35mTripImage Load (0.1ms)[0m  SELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1  [["trip_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 51ms (Views: 47.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 22:47:25 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:47:25 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:47:25 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 22:47:25 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:47:25 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:47:25 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:47:25 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:47:25 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 22:47:25 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 22:48:09 +0100
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_social_box.html.erb (13.1ms)
+  [1m[35mPlace Load (0.2ms)[0m  SELECT  "places".* FROM "places"  LIMIT 3
+  [1m[36mImage Load (0.2ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 3]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 55ms (Views: 51.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:48:09 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:48:09 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 22:48:09 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:48:09 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 22:48:09 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:48:09 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 22:48:09 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:48:10 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:48:10 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:48:13 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1[0m
+  [1m[35mTripImage Load (0.1ms)[0m  SELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1  [["trip_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 22:48:49 +0100
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_social_box.html.erb (12.6ms)
+  [1m[35mPlace Load (0.1ms)[0m  SELECT  "places".* FROM "places"  LIMIT 3
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 3]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 52ms (Views: 47.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 22:48:49 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:48:49 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 22:48:49 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:48:49 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:48:49 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:48:49 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:48:49 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 22:48:49 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:48:49 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:48:59 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1[0m
+  [1m[35mTripImage Load (0.2ms)[0m  SELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1  [["trip_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 16ms (Views: 12.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:52:04 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[36mTrip Load (0.3ms)[0m  [1mSELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1[0m
+  [1m[35mTripImage Load (0.1ms)[0m  SELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1  [["trip_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 39ms (Views: 36.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:52:04 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 22:52:04 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:52:04 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:52:04 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:52:04 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 22:52:04 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:52:04 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 22:52:04 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:52:04 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:52:24 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1[0m
+  [1m[35mTripImage Load (0.1ms)[0m  SELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1  [["trip_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 35ms (Views: 32.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:52:24 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 22:52:24 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:52:24 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:52:24 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:52:24 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 22:52:24 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:52:24 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 22:52:24 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:52:24 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:53:50 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1[0m
+  [1m[35mTripImage Load (0.1ms)[0m  SELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1  [["trip_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 37ms (Views: 33.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 22:53:50 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:53:50 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 22:53:50 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:53:50 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:53:50 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:53:50 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 22:53:50 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:53:50 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:53:50 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:54:12 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[36mTrip Load (0.1ms)[0m  [1mSELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1[0m
+  [1m[35mTripImage Load (0.1ms)[0m  SELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1  [["trip_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:54:12 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:54:12 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 22:54:12 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:54:12 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 22:54:12 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:54:12 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:54:12 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:54:12 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 22:54:12 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 22:54:52 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[36mTrip Load (0.3ms)[0m  [1mSELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1[0m
+  [1m[35mTripImage Load (0.1ms)[0m  SELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1  [["trip_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 14ms (Views: 10.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:54:52 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 22:54:52 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 22:54:52 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:54:52 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:54:52 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:54:52 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:54:52 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 22:54:52 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:54:52 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 22:54:53 +0100
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_social_box.html.erb (9.3ms)
+  [1m[35mPlace Load (0.1ms)[0m  SELECT  "places".* FROM "places"  LIMIT 3
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 3]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 21ms (Views: 16.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 22:55:36 +0100
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_social_box.html.erb (11.2ms)
+  [1m[35mPlace Load (0.2ms)[0m  SELECT  "places".* FROM "places"  LIMIT 3
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 3]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 23ms (Views: 18.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:55:36 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:55:36 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 22:55:36 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 22:55:36 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:55:36 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:55:36 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:55:36 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 22:55:36 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:55:36 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 22:56:24 +0100
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.3ms)[0m  [1mSELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_social_box.html.erb (10.4ms)
+  [1m[35mPlace Load (0.1ms)[0m  SELECT  "places".* FROM "places"  LIMIT 3
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 3]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 43ms (Views: 38.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:56:25 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 22:56:25 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:56:25 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:56:25 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 22:56:25 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:56:25 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:56:25 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 22:56:25 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:56:25 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 22:57:43 +0100
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_social_box.html.erb (10.6ms)
+  [1m[35mPlace Load (0.1ms)[0m  SELECT  "places".* FROM "places"  LIMIT 3
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 3]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 45ms (Views: 40.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:57:43 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 22:57:43 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:57:43 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:57:43 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 22:57:43 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:57:43 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:57:43 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 22:57:43 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:57:43 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 22:58:46 +0100
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_social_box.html.erb (10.7ms)
+  [1m[35mPlace Load (0.1ms)[0m  SELECT  "places".* FROM "places"  LIMIT 3
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 3]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 61ms (Views: 54.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 22:58:46 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 22:58:46 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:58:46 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 22:58:46 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 22:58:46 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 22:58:46 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 22:58:46 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 22:58:46 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:58:46 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 22:59:33 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 22:59:49 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 22:59:58 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:00:44 +0100
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_social_box.html.erb (10.3ms)
+  [1m[35mPlace Load (0.1ms)[0m  SELECT  "places".* FROM "places"  LIMIT 3
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 3]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 62ms (Views: 57.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 23:00:44 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 23:00:44 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 23:00:44 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 23:00:44 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 23:00:44 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 23:00:44 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 23:00:44 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 23:00:44 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 23:00:44 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:06:01 +0100
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.1ms)[0m  [1mSELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_social_box.html.erb (23.8ms)
+  [1m[35mPlace Load (0.1ms)[0m  SELECT  "places".* FROM "places"  LIMIT 3
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 3]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (51.4ms)
+Completed 200 OK in 99ms (Views: 66.7ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/javascripts/home.js.erb.js" for 127.0.0.1 at 2014-08-11 23:06:01 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/home.js.erb.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/joel/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/joel/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/joel/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 23:06:01 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 23:06:01 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 23:06:01 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 23:06:01 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 23:06:01 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 23:06:01 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 23:06:01 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:07:07 +0100
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.3ms)[0m  [1mSELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( home.js )` to `config/initializers/assets.rb` and restart your server):
+    1: <% javascript 'home' %>
+    2: 
+    3: <div id='opening-text'>
+    4:     <h1>Wish to travel but don't want to go alone?</h1>
+  app/helpers/application_helper.rb:3:in `block in javascript'
+  app/helpers/application_helper.rb:3:in `javascript'
+  app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4343567153990102681_70144486350120'
+
+
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:07:10 +0100
+Processing by HomeController#index as HTML
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( home.js )` to `config/initializers/assets.rb` and restart your server):
+    1: <% javascript 'home' %>
+    2: 
+    3: <div id='opening-text'>
+    4:     <h1>Wish to travel but don't want to go alone?</h1>
+  app/helpers/application_helper.rb:3:in `block in javascript'
+  app/helpers/application_helper.rb:3:in `javascript'
+  app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4343567153990102681_70144486350120'
+
+
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:07:25 +0100
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( home.js )` to `config/initializers/assets.rb` and restart your server):
+    1: <% javascript 'home.js' %>
+    2: 
+    3: <div id='opening-text'>
+    4:     <h1>Wish to travel but don't want to go alone?</h1>
+  app/helpers/application_helper.rb:3:in `block in javascript'
+  app/helpers/application_helper.rb:3:in `javascript'
+  app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4343567153990102681_70144492108200'
+
+
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:07:27 +0100
+Processing by HomeController#index as HTML
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( home.js )` to `config/initializers/assets.rb` and restart your server):
+    1: <% javascript 'home.js' %>
+    2: 
+    3: <div id='opening-text'>
+    4:     <h1>Wish to travel but don't want to go alone?</h1>
+  app/helpers/application_helper.rb:3:in `block in javascript'
+  app/helpers/application_helper.rb:3:in `javascript'
+  app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4343567153990102681_70144492108200'
+
+
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (22.0ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:07:33 +0100
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_social_box.html.erb (11.2ms)
+  [1m[35mPlace Load (0.1ms)[0m  SELECT  "places".* FROM "places"  LIMIT 3
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 3]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 35ms (Views: 30.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 23:07:33 +0100
+
+
+Started GET "/javascripts/home.js.erb.js" for 127.0.0.1 at 2014-08-11 23:07:33 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/home.js.erb.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  newrelic_rpm (3.9.1.236) lib/new_relic/agent/instrumentation/middleware_tracing.rb:57:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/joel/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/joel/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/joel/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 23:07:33 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 23:07:33 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 23:07:33 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 23:07:33 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 23:07:33 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 23:07:33 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:09:32 +0100
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( home.js )` to `config/initializers/assets.rb` and restart your server):
+    1: <% javascript 'home.js' %>
+    2: 
+    3: <div id='opening-text'>
+    4:     <h1>Wish to travel but don't want to go alone?</h1>
+  app/helpers/application_helper.rb:3:in `block in javascript'
+  app/helpers/application_helper.rb:3:in `javascript'
+  app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4343567153990102681_70144565699460'
+
+
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.2ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:09:37 +0100
+Processing by HomeController#index as HTML
+  [1m[35mTrip Load (0.1ms)[0m  SELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( home.js )` to `config/initializers/assets.rb` and restart your server):
+    1: <% javascript 'home' %>
+    2: 
+    3: <div id='opening-text'>
+    4:     <h1>Wish to travel but don't want to go alone?</h1>
+  app/helpers/application_helper.rb:3:in `block in javascript'
+  app/helpers/application_helper.rb:3:in `javascript'
+  app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4343567153990102681_70144486442560'
+
+
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:11:36 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mTrip Load (0.1ms)[0m  SELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1
+  Rendered home/index.html.erb within layouts/application (6.3ms)
+Completed 500 Internal Server Error in 75ms
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( home.js )` to `config/initializers/assets.rb` and restart your server):
+    1: <% javascript 'home' %>
+    2: 
+    3: <div id='opening-text'>
+    4:     <h1>Wish to travel but don't want to go alone?</h1>
+  app/helpers/application_helper.rb:3:in `block in javascript'
+  app/helpers/application_helper.rb:3:in `javascript'
+  app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb___1239880150401844945_70117489545000'
+
+
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:13:49 +0100
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5[0m  [["trip_id", 1]]
+  [1m[35mPlace Load (0.2ms)[0m  SELECT  "places".* FROM "places"  LIMIT 3
+  Rendered home/index.html.erb within layouts/application (45.6ms)
+Completed 500 Internal Server Error in 69ms
+
+ActionView::Template::Error (undefined method `javascript' for #<#<Class:0x007f8afafdcdc0>:0x007f8afafdc258>):
+    1: <% javascript 'home' %>
+    2: 
+    3: <div id='opening-text'>
+    4:     <h1>Wish to travel but don't want to go alone?</h1>
+  app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb___1239880150401844945_70117489545000'
+
+
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:14:00 +0100
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_social_box.html.erb (11.5ms)
+  [1m[35mPlace Load (0.1ms)[0m  SELECT  "places".* FROM "places"  LIMIT 3
+  [1m[36mImage Load (0.2ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 3]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (27.8ms)
+Completed 500 Internal Server Error in 93ms
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( home.js )` to `config/initializers/assets.rb` and restart your server):
+     5:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+     6:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= javascript_include_tag params[:controller] %>
+     9:     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    10:     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+    11:     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1057102373474850392_70117446467760'
+
+
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:14:32 +0100
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.2ms)[0m  [1mSELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_social_box.html.erb (8.2ms)
+  [1m[35mPlace Load (0.1ms)[0m  SELECT  "places".* FROM "places"  LIMIT 3
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 3]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (11.5ms)
+Completed 500 Internal Server Error in 178ms
+
+ActionView::Template::Error (SyntaxError: [stdin]:1:1: reserved word "var"
+  (in /Users/joel/Dropbox/Network-Trips/app/assets/javascripts/home.js.coffee)):
+     5:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+     6:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= javascript_include_tag params[:controller] %>
+     9:     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    10:     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+    11:     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1057102373474850392_70117446467760'
+
+
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:15:50 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mTrip Load (0.1ms)[0m  SELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5  [["trip_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_social_box.html.erb (22.1ms)
+  [1m[36mPlace Load (0.1ms)[0m  [1mSELECT  "places".* FROM "places"  LIMIT 3[0m
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 3]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (37.4ms)
+Completed 500 Internal Server Error in 205ms
+
+ActionView::Template::Error (SyntaxError: [stdin]:1:1: reserved word "var"
+  (in /Users/joel/Dropbox/Network-Trips/app/assets/javascripts/home.js.coffee)):
+     5:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+     6:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= javascript_include_tag params[:controller] %>
+     9:     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    10:     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+    11:     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__4101330856858283852_70117166631940'
+
+
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:16:07 +0100
+Processing by HomeController#index as HTML
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5  [["trip_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_social_box.html.erb (7.8ms)
+  [1m[36mPlace Load (0.1ms)[0m  [1mSELECT  "places".* FROM "places"  LIMIT 3[0m
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 3]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (11.1ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( home.js )` to `config/initializers/assets.rb` and restart your server):
+     5:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+     6:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= javascript_include_tag params[:controller] %>
+     9:     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    10:     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+    11:     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__4101330856858283852_70117166631940'
+
+
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:16:18 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mTrip Load (0.1ms)[0m  SELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5  [["trip_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_social_box.html.erb (23.7ms)
+  [1m[36mPlace Load (0.1ms)[0m  [1mSELECT  "places".* FROM "places"  LIMIT 3[0m
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 3]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (37.5ms)
+Completed 500 Internal Server Error in 121ms
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( home.js )` to `config/initializers/assets.rb` and restart your server):
+     5:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+     6:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= javascript_include_tag params[:controller] %>
+     9:     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    10:     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+    11:     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1080317168769463830_70321216700020'
+
+
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:23:17 +0100
+Processing by HomeController#index as HTML
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5  [["trip_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_social_box.html.erb (8.3ms)
+  [1m[36mPlace Load (0.1ms)[0m  [1mSELECT  "places".* FROM "places"  LIMIT 3[0m
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 3]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (11.6ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( home.js )` to `config/initializers/assets.rb` and restart your server):
+     5:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+     6:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= javascript_include_tag params[:controller] %>
+     9:     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    10:     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+    11:     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1080317168769463830_70321216700020'
+
+
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/joel/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:23:29 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mTrip Load (0.1ms)[0m  SELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5  [["trip_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_social_box.html.erb (24.0ms)
+  [1m[36mPlace Load (0.1ms)[0m  [1mSELECT  "places".* FROM "places"  LIMIT 3[0m
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 3]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (38.5ms)
+Completed 200 OK in 109ms (Views: 60.8ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 23:23:29 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 23:23:29 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 23:23:29 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 23:23:29 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 23:23:30 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 23:23:30 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 23:23:30 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 23:23:30 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:27:42 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mTrip Load (0.1ms)[0m  SELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5  [["trip_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_social_box.html.erb (22.8ms)
+  [1m[36mPlace Load (0.1ms)[0m  [1mSELECT  "places".* FROM "places"  LIMIT 3[0m
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 3]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (37.9ms)
+Completed 200 OK in 100ms (Views: 60.1ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 23:27:42 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 23:27:42 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 23:27:42 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 23:27:42 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 23:27:42 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 23:27:42 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 23:27:42 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 23:27:42 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 23:27:44 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (51.9ms)
+Completed 200 OK in 63ms (Views: 57.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 23:28:47 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 13ms (Views: 9.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 23:28:47 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 23:28:47 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 23:28:47 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 23:28:47 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 23:28:47 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 23:28:47 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 23:28:47 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 23:28:47 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:29:06 +0100
+Processing by HomeController#index as HTML
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5  [["trip_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_social_box.html.erb (7.8ms)
+  [1m[36mPlace Load (0.1ms)[0m  [1mSELECT  "places".* FROM "places"  LIMIT 3[0m
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 3]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:29:31 +0100
+Processing by HomeController#index as HTML
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5  [["trip_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_social_box.html.erb (8.4ms)
+  [1m[36mPlace Load (0.1ms)[0m  [1mSELECT  "places".* FROM "places"  LIMIT 3[0m
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 3]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 32ms (Views: 28.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:29:33 +0100
+Processing by HomeController#index as HTML
+  [1m[35mTrip Load (0.1ms)[0m  SELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5  [["trip_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_social_box.html.erb (7.5ms)
+  [1m[36mPlace Load (0.1ms)[0m  [1mSELECT  "places".* FROM "places"  LIMIT 3[0m
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 3]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 26ms (Views: 22.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:29:39 +0100
+Processing by HomeController#index as HTML
+  [1m[35mTrip Load (0.1ms)[0m  SELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5  [["trip_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_social_box.html.erb (8.7ms)
+  [1m[36mPlace Load (0.1ms)[0m  [1mSELECT  "places".* FROM "places"  LIMIT 3[0m
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 3]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 23:29:39 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 23:29:39 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 23:29:39 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 23:29:39 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 23:29:39 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 23:29:39 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 23:29:39 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-11 23:29:39 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 23:29:43 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 16ms (Views: 13.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 23:32:19 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 19ms (Views: 15.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 23:32:20 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 23:32:20 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 23:32:20 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 23:32:20 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 23:32:20 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 23:32:20 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 23:32:20 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 23:32:20 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 23:35:21 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.4ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 21ms (Views: 16.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 23:35:21 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 23:35:21 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 23:35:21 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 23:35:21 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 23:35:21 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 23:35:21 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 23:35:21 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 23:35:21 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 23:36:28 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 18ms (Views: 14.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 23:36:28 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 23:36:28 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 23:36:28 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 23:36:28 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 23:36:28 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 23:36:28 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 23:36:28 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 23:36:28 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 23:36:46 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.1ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 23:36:46 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 23:36:46 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 23:36:46 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 23:36:46 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 23:36:46 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 23:36:46 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 23:36:46 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 23:36:46 +0100
+
+
+Started GET "/trip/BournmouthWeekendCoachTrip" for 127.0.0.1 at 2014-08-11 23:37:18 +0100
+Processing by TripController#trip_page as HTML
+  Parameters: {"page_name"=>"BournmouthWeekendCoachTrip"}
+  [1m[35mTrip Load (0.2ms)[0m  SELECT  "trips".* FROM "trips"  WHERE "trips"."page_name" = 'BournmouthWeekendCoachTrip' LIMIT 1
+  [1m[36mTripImage Load (0.1ms)[0m  [1mSELECT  "trip_images".* FROM "trip_images"  WHERE "trip_images"."trip_id" = ?  ORDER BY "trip_images"."id" ASC LIMIT 1[0m  [["trip_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  Rendered trip/trip_page.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 17ms (Views: 13.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 23:37:19 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-11 23:37:19 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 23:37:19 +0100
+
+
+Started GET "/assets/trip.css?body=1" for 127.0.0.1 at 2014-08-11 23:37:19 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 23:37:19 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 23:37:19 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 23:37:19 +0100
+
+
+Started GET "/assets/trip.js?body=1" for 127.0.0.1 at 2014-08-11 23:37:19 +0100
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddIntroToUser (20140811223903)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.8ms)[0m  [1mALTER TABLE "users" ADD "intro" varchar(255)[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140811223903"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_trips_on_page_name' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_trips_on_page_name' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE (LOWER("users"."email") = LOWER('joelhoskin@gmail.com') AND "users"."id" != 2) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE (LOWER("users"."email") = LOWER('joelhoskin@gmail.com') AND "users"."id" != 2) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "trips"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE (LOWER("users"."email") = LOWER('joelhoskin@gmail.com') AND "users"."id" != 2) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE (LOWER("users"."email") = LOWER('joelhoskin@gmail.com') AND "users"."id" != 2) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE (LOWER("users"."email") = LOWER('joelhoskin@gmail.com') AND "users"."id" != 2) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE (LOWER("users"."email") = LOWER('joelhoskin@gmail.com') AND "users"."id" != 2) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users"
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 23:52:31 +0100
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.1ms)[0m  [1mSELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT  "comments".* FROM "comments"  WHERE "comments"."trip_id" = ?  ORDER BY "comments"."priorty" DESC, "comments"."created_at" DESC LIMIT 5[0m  [["trip_id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_social_box.html.erb (18.4ms)
+  [1m[35mPlace Load (0.1ms)[0m  SELECT  "places".* FROM "places"  LIMIT 3
+  [1m[36mImage Load (0.2ms)[0m  [1mSELECT "images".* FROM "images"  WHERE "images"."place_id" = ?[0m  [["place_id", 3]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images"  WHERE "images"."place_id" = ?  [["place_id", 4]]
+  Rendered home/index.html.erb within layouts/application (34.8ms)
+Completed 200 OK in 65ms (Views: 38.7ms | ActiveRecord: 2.9ms)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'joelhoskin@hotmail.com' LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'joelhoskin@gmail.com' LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'joelhoskin@gmail.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mSQL (3.2ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mTrip Load (0.1ms)[0m  [1mSELECT  "trips".* FROM "trips"   ORDER BY "trips"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" INNER JOIN "tickets" ON "users"."id" = "tickets"."user_id" WHERE "tickets"."trip_id" = ?  [["trip_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-08-11 23:02:08.825562"], ["email", "joelhoskin@gmail.com"], ["name", "Joel Hoskin"], ["password_digest", "$2a$10$bPkniVfuPrbv/W1ZV.C7ou/DT/sh/uFuG3npGnvjT.FRYrHcdw7hC"], ["updated_at", "2014-08-11 23:02:08.825562"]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE (LOWER("users"."email") = LOWER('joelhoskin@gmail.com') AND "users"."id" != 42) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE ("users"."email" = 'joelhoskin@gmail.com' AND "users"."id" != 42) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE ("users"."email" = 'joelhoskin@gmail.com' AND "users"."id" != 42) LIMIT 1[0m
+  [1m[35mSQL (1.8ms)[0m  DELETE FROM "users"
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'joelhoskin@gmail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-11 23:10:09.680392"], ["email", "joelhoskin@gmail.com"], ["name", "Joel Hoskin"], ["password_digest", "$2a$10$uwEhrH.EsDOSsJ99ELdL4uBTOnr0Y9zEnm/6d9s1GvNIgyZaFgKuC"], ["updated_at", "2014-08-11 23:10:09.680392"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE ("users"."email" = 'joelhoskin@gmail.com' AND "users"."id" != 43) LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE ("users"."email" = 'joelhoskin@gmail.com' AND "users"."id" != 43) LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE ("users"."email" = 'joelhoskin@gmail.com' AND "users"."id" != 43) LIMIT 1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE ("users"."email" = 'joelhoskin@gmail.com' AND "users"."id" != 43) LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE ("users"."email" = 'joelhoskin@gmail.com' AND "users"."id" != 43) LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "intro" = ?, "updated_at" = ? WHERE "users"."id" = 43  [["intro", "Hello"], ["updated_at", "2014-08-11 23:12:20.419673"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE ("users"."email" = 'joelhoskin@gmail.com' AND "users"."id" != 43) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'joelhoskin@snail.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE ("users"."email" = 'joelhoskin@gmail.com' AND "users"."id" != 43) LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "intro" = ?, "updated_at" = ? WHERE "users"."id" = 43  [["intro", "I'm a Software Developer who also likes looking at old buildings"], ["updated_at", "2014-08-11 23:15:00.381668"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m

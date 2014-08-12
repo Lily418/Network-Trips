@@ -3,9 +3,9 @@
     <div class='row' id='users'>
         <div id='user-images'>
             <% for user in @users %>
-            <div class='col-md-2'>
+            <div class='user-image col-md-2'>
                 <p class='name'><%= user.name %></p>
-                <img class='user-image' src='<%= user.profile_picture %>' />
+                <img src='<%= user.profile_picture %>' />
             </div>
             <% end %>
         </div>

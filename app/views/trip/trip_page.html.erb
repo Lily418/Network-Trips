@@ -1,0 +1,62 @@
+<div id='opening-text'>
+    <h1><%= @trip.name %></h1>
+</div>
+
+<div class='row'>
+    <div class='col-md-9'>
+    <div id='trip-banner' class='row'>
+
+        <div class='col-md-4'>
+            <img src="<%= @trip.trip_images.first.url %>" />
+        </div>
+        <div class='col-md-4'>
+            <h2>Holiday Highlights</h2>
+            <%= @trip.highlight_text.html_safe %>
+        </div>
+        <div class='col-md-4'>
+            <div id='booking-info'>
+                <h2><%= @trip.date.mday.ordinalize + " " + @trip.date.strftime("%B") %></h2>
+                <%= @trip.booking_info.html_safe %>
+
+                <div id='booking-pane'>
+                    <div id='cost-pane'>
+                        <h3>Cost £69</h3>
+                        <a href=''>Get a discount</a>
+                    </div>
+
+                    <a id='book-now-button' class='btn btn-lg btn-primary' href=''>Book Now</a>
+                    <div style='clear:both'></div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class='row'>
+    <div class='col-md-12'>
+    <h2><%= @users.count %> Travel Buddies</h2>
+</div>
+    </div>
+    <div class='row'>
+        <div class='col-md-2'>
+            <button id='buddies-button-left' class='btn btn-lg btn-primary'><span class="glyphicon glyphicon-chevron-left"></span></button>
+        </div>
+        <div id='images'>
+        <% for user in @users %>
+            <div class='user-image col-md-2'>
+                <img src='<%= user.profile_picture %>' />
+                <span class='user-name'>user.name</span>
+            </div>
+        <% end %>
+        </div>
+        <div class='col-md-2'>
+            <button id='buddies-button-right' class='btn btn-lg btn-primary'><span class="glyphicon glyphicon-chevron-right"></span></button>
+        </div>
+    </div>
+</div>
+
+    <div id='somewhere-else' class='col-md-3'>
+        <h2>Somewhere Else</h2>
+    </div>
+</div>
