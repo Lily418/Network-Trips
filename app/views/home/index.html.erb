@@ -54,7 +54,7 @@
             <% end %>
         </div>
         <div class='id-like-to-go'>
-            <% if place.users.find_by(id: current_user.id) == nil %>
+            <% if current_user.nil? || place.users.find_by(id: current_user.id) == nil %>
             <h4><span class='count'><%= place.users.count%></span> <%= place.users.count == 1 ? "Person wants" : "People want" %>  to go </h4>
             <button type="button" class='id-like-to-go-button btn btn-primary' id='button<%= place.id %>'>I'd like to go</button>
             <% else %>
