@@ -58,7 +58,7 @@
             </div>
         </div>
         <% if current_user.nil? %>
-            <h2><span class='login-link'>Sign Up</span> or <span class='login-link'>Login</span> and book a ticket to comment </h2>
+            <h2><span class='sign-up-link'>Sign Up</span> or <span class='login-link'>Login</span> and book a ticket to comment </h2>
         <% elsif !@has_ticket %>
             <h2 class='comment-heading'>Before you can join the conversation you must <a>Buy a Ticket</a></h2>
         <% else %>
