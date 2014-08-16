@@ -75,3 +75,30 @@ h1 a {
 .close-flash {
     float:right;
 }
+
+#login-form label {
+    display: block;
+}
+
+#login-form input {
+    display:block;
+}
+
+.login-text-input {
+    width:100%;
+    margin-bottom:5px;
+}
+
+
+#login-button {
+    float:right;
+}
+
+
+#sign-up-form input {
+    display:block;
+}
+
+#sign-up-button {
+    float:right;
+}

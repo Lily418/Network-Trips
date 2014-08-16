@@ -1,26 +1,26 @@
 <script>
 <%
-    login_form = form_tag('/sessions', method: 'post') do
+    login_form = form_tag('/sessions', method: 'post', id: "login-form") do
     label_tag(:email, 'Email:') +
-    text_field_tag(:email) +
+    text_field_tag(:email, "", class: "login-text-input") +
     label_tag(:password, 'Password:') +
-    password_field_tag(:password) +
-    submit_tag('Login')
+    password_field_tag(:password, "", class: "login-text-input") +
+    submit_tag('Login', id: "login-button")
     end
     login_form = escape_javascript login_form
 %>
 
 <%
-    sign_up_form = form_tag('/users', method: 'post') do
+    sign_up_form = form_tag('/users', method: 'post', id: "sign-up-form") do
         label_tag(:name, 'Name:') +
-        text_field_tag(:name) +
+        text_field_tag(:name, "", class: "login-text-input") +
         label_tag(:email, 'Email:') +
-        text_field_tag(:email) +
+        text_field_tag(:email, "", class: "login-text-input") +
         label_tag(:password, 'Password:') +
-        password_field_tag(:password) +
+        password_field_tag(:password, "", class: "login-text-input") +
         label_tag(:password_confirmation, 'Password Confirmation:') +
-        password_field_tag(:password_confirmation) +
-        submit_tag('Sign Up')
+        password_field_tag(:password_confirmation, "", class: "login-text-input") +
+        submit_tag('Sign Up', id: "sign-up-button")
     end
     sign_up_form = escape_javascript sign_up_form
 %>

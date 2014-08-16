@@ -14,12 +14,12 @@
 //= require jquery_ujs
 //= require turbolinks
 function show_login_modal(){
-    $( login_form_string ).dialog({}
+    $( login_form_string ).dialog({modal:true, title: "Login"}
     );
 }
 
 function show_signup_modal(){
-    $( sign_up_form ).dialog({});
+    $( sign_up_form ).dialog({modal:true, title: "Sign Up"});
 }
 
 function close_flash(){
