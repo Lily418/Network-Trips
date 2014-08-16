@@ -10,5 +10,9 @@ class ApplicationController < ActionController::Base
       return !current_user.nil? && !Ticket.find_by(trip_id: trip.id, user_id: current_user.id).nil?
   end
 
+  def login user_id
+      session[:current_user_id] = user_id
+  end
+
   helper_method :current_user
 end

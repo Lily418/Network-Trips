@@ -16,7 +16,18 @@
 function show_login_modal(){
     $( login_form_string ).dialog({}
     );
-
-
-
 }
+
+function show_signup_modal(){
+    $( sign_up_form ).dialog({});
+}
+
+function close_flash(){
+    $( this ).parent().remove();
+}
+
+$( document ).ready(function(){
+    $( "#user-login" ).click(show_login_modal);
+    $( "#user-signup" ).click(show_signup_modal);
+    $( ".close-flash" ).click(close_flash);
+});

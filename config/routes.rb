@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   get "trip/:page_name" => "trip#trip_page"
   resources :users
   resources :comments
-  resources :sessions, only: [:create, :destroy]
+  post "sessions" => "sessions#create"
+  delete "sessions" => "sessions#delete"
 end

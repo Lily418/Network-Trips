@@ -44,7 +44,7 @@ header {
 
 }
 
-#header-background h2 {
+#header-background #user-actions {
     float: right;
 }
 
@@ -53,4 +53,25 @@ footer {
     text-align:center;
     background-color: #39bac7;
 
+}
+
+h1 a {
+    color:white;
+}
+
+#username {
+    float:left;
+}
+
+#user-actions img {
+    float:left;
+    max-height:50px;
+}
+
+#user-actions button {
+    float:right;
+}
+
+.close-flash {
+    float:right;
 }

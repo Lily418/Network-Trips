@@ -14,11 +14,20 @@
 
 </head>
 <body>
-
+    <%= render '/layouts/messages' %>
     <div id='header-background'>
         <header>
             <h1><a href='/'>Network Trips</a></h1>
-            <h2>Explore and Socialise</h2>
+            <div id='user-actions'>
+            <% if current_user.nil? %>
+
+                <button id='user-signup' class='btn btn-primary'>Sign Up</button>
+                <button id='user-login' class='btn btn-default'>Login</button>
+
+            <% else %>
+                <%= link_to "Log Out", "/sessions", method: "delete", class: "btn btn-default" %>
+            <% end %>
+        </div>
             <div style='clear:both' />
         </header>
     </div>

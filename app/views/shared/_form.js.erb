@@ -9,5 +9,21 @@
     end
     login_form = escape_javascript login_form
 %>
+
+<%
+    sign_up_form = form_tag('/users', method: 'post') do
+        label_tag(:name, 'Name:') +
+        text_field_tag(:name) +
+        label_tag(:email, 'Email:') +
+        text_field_tag(:email) +
+        label_tag(:password, 'Password:') +
+        password_field_tag(:password) +
+        label_tag(:password_confirmation, 'Password Confirmation:') +
+        password_field_tag(:password_confirmation) +
+        submit_tag('Sign Up')
+    end
+    sign_up_form = escape_javascript sign_up_form
+%>
 var login_form_string = "<%= login_form %>";
+var sign_up_form = "<%= sign_up_form %>"
 </script>
