@@ -821,3 +821,11 @@
 [08/16/14 06:36:54 +0100 Joels-MacBook-Pro-2.local (8134)] ERROR : Error running task in Agent Worker Loop:
 [08/16/14 06:36:54 +0100 Joels-MacBook-Pro-2.local (8134)] ERROR : Errno::ENETUNREACH: Network is unreachable - connect(2) for "collector-110.newrelic.com" port 443
 [08/16/14 09:30:27 +0100 Joels-MacBook-Pro-2.local (10303)] INFO : Starting Agent shutdown
+[08/16/14 09:44:43 +0100 Joels-MacBook-Pro-2.local (8134)] ERROR : Error running task in Agent Worker Loop:
+[08/16/14 09:44:43 +0100 Joels-MacBook-Pro-2.local (8134)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[08/16/14 09:48:03 +0100 Joels-MacBook-Pro-2.local (13381)] INFO : Starting Agent shutdown
+[08/16/14 09:48:39 +0100 Joels-MacBook-Pro-2.local (13407)] INFO : Starting Agent shutdown
+[08/16/14 09:51:46 +0100 Joels-MacBook-Pro-2.local (13474)] INFO : Starting Agent shutdown
+[08/16/14 10:01:23 +0100 Joels-MacBook-Pro-2.local (13560)] INFO : Starting Agent shutdown
+[08/16/14 10:18:11 +0100 Joels-MacBook-Pro-2.local (13668)] INFO : Starting Agent shutdown
+[08/16/14 10:56:16 +0100 Joels-MacBook-Pro-2.local (13984)] INFO : Starting Agent shutdown

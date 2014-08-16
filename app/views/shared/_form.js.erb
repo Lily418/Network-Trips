@@ -24,6 +24,28 @@
     end
     sign_up_form = escape_javascript sign_up_form
 %>
+
+function id_like_to_go_update(place_id, $div){
+
+    $.ajax({
+        type: "GET",
+        url: "/idliketogo/" + place_id,
+        data: "",
+        success: function(data){
+            $div.children(".id-like-to-go").html("<h4>You want to go</h4>");
+        }
+    });
+}
+
+function id_like_to_go_clicked(){
+    var place_id = this.id.match(/[0-9]+/);
+    var $div = $( this ).parent().parent();
+    <% if current_user.nil? %>
+        var place_name = $div.children( "h3" ).text();
+    <% else %>
+        id_like_to_go_update(place_id, $div)
+    <% end %>
+}
 var login_form_string = "<%= login_form %>";
-var sign_up_form = "<%= sign_up_form %>"
+var sign_up_form = "<%= sign_up_form %>";
 </script>
