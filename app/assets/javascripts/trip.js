@@ -23,8 +23,10 @@ function move_right(){
     show_images();
 }
 
+
 $( document ).ready(function(){
     $( "#buddies-button-left" ).click(move_left);
     $( "#buddies-button-right" ).click(move_right);
+    $( ".login-link" ).click(show_login_modal);
     show_images();
 });

@@ -1,0 +1,13 @@
+<script>
+<%
+    login_form = form_tag('/sessions', method: 'post') do
+    label_tag(:email, 'Email:') +
+    text_field_tag(:email) +
+    label_tag(:password, 'Password:') +
+    password_field_tag(:password) +
+    submit_tag('Login')
+    end
+    login_form = escape_javascript login_form
+%>
+var login_form_string = "<%= login_form %>";
+</script>

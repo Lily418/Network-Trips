@@ -13,4 +13,13 @@ class User < ActiveRecord::Base
     def profile_picture
         "https://gravatar.com/avatar/" + Digest::MD5.hexdigest(self.email.strip.downcase)
     end
+
+    def User.get_user_from_user_id(id)
+        return nil if id == nil
+        return User.find_by(id: id)
+    end
+
+    def User.has_ticket_to_trip id
+        !current_user.nil? && !Ticket.find_by(trip_id: id, user_id: current_user.id).nil?
+    end
 end

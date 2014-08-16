@@ -556,3 +556,170 @@
 [08/12/14 01:49:31 +0100 Joels-MacBook-Pro-2.local (7418)] INFO : Starting Agent shutdown
 [08/12/14 01:49:31 +0100 Joels-MacBook-Pro-2.local (8282)] INFO : Starting Agent shutdown
 [08/12/14 01:49:32 +0100 Joels-MacBook-Pro-2.local (7414)] INFO : Starting Agent shutdown
+[08/12/14 01:52:46 +0100 Joels-MacBook-Pro-2.local (9418)] INFO : Starting the New Relic agent in "development" environment.
+[08/12/14 01:52:46 +0100 Joels-MacBook-Pro-2.local (9418)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/12/14 01:52:46 +0100 Joels-MacBook-Pro-2.local (9418)] INFO : Reading configuration from config/newrelic.yml
+[08/12/14 01:52:46 +0100 Joels-MacBook-Pro-2.local (9418)] INFO : New Relic Agent Developer Mode enabled.
+[08/12/14 01:52:46 +0100 Joels-MacBook-Pro-2.local (9418)] INFO : Environment: development
+[08/12/14 01:52:46 +0100 Joels-MacBook-Pro-2.local (9418)] INFO : Dispatcher: webrick
+[08/12/14 01:52:46 +0100 Joels-MacBook-Pro-2.local (9418)] INFO : Application: My Application (Development)
+[08/12/14 01:52:46 +0100 Joels-MacBook-Pro-2.local (9418)] INFO : Installing ActiveRecord 4 instrumentation
+[08/12/14 01:52:46 +0100 Joels-MacBook-Pro-2.local (9418)] INFO : Installing Net instrumentation
+[08/12/14 01:52:46 +0100 Joels-MacBook-Pro-2.local (9418)] INFO : Installing deferred Rack instrumentation
+[08/12/14 01:52:46 +0100 Joels-MacBook-Pro-2.local (9418)] INFO : Installing Rack::Builder middleware instrumentation
+[08/12/14 01:52:46 +0100 Joels-MacBook-Pro-2.local (9418)] INFO : Installing Rails 3+ middleware instrumentation
+[08/12/14 01:52:46 +0100 Joels-MacBook-Pro-2.local (9418)] INFO : Installing Rails 4 Controller instrumentation
+[08/12/14 01:52:46 +0100 Joels-MacBook-Pro-2.local (9418)] INFO : Installing Rails 4 view instrumentation
+[08/12/14 01:52:46 +0100 Joels-MacBook-Pro-2.local (9418)] INFO : Installing Rails 4 Error instrumentation
+[08/12/14 01:52:46 +0100 Joels-MacBook-Pro-2.local (9418)] INFO : Finished instrumentation
+[08/12/14 01:52:46 +0100 Joels-MacBook-Pro-2.local (9418)] INFO : Doing deferred dependency-detection before Rack startup
+[08/12/14 01:52:47 +0100 Joels-MacBook-Pro-2.local (9418)] INFO : Reporting to: https://rpm.newrelic.com/accounts/445162/applications/4640754
+[08/12/14 01:53:10 +0100 Joels-MacBook-Pro-2.local (9488)] INFO : Starting the New Relic agent in "development" environment.
+[08/12/14 01:53:10 +0100 Joels-MacBook-Pro-2.local (9488)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/12/14 01:53:10 +0100 Joels-MacBook-Pro-2.local (9488)] INFO : Reading configuration from config/newrelic.yml
+[08/12/14 01:53:10 +0100 Joels-MacBook-Pro-2.local (9488)] INFO : New Relic Agent Developer Mode enabled.
+[08/12/14 01:53:10 +0100 Joels-MacBook-Pro-2.local (9488)] INFO : Environment: development
+[08/12/14 01:53:10 +0100 Joels-MacBook-Pro-2.local (9488)] INFO : No known dispatcher detected.
+[08/12/14 01:53:10 +0100 Joels-MacBook-Pro-2.local (9488)] INFO : Application: My Application (Development)
+[08/12/14 01:53:10 +0100 Joels-MacBook-Pro-2.local (9488)] INFO : Installing ActiveRecord 4 instrumentation
+[08/12/14 01:53:10 +0100 Joels-MacBook-Pro-2.local (9488)] INFO : Installing Net instrumentation
+[08/12/14 01:53:10 +0100 Joels-MacBook-Pro-2.local (9488)] INFO : Installing deferred Rack instrumentation
+[08/12/14 01:53:10 +0100 Joels-MacBook-Pro-2.local (9488)] INFO : Installing Rack::Builder middleware instrumentation
+[08/12/14 01:53:10 +0100 Joels-MacBook-Pro-2.local (9488)] INFO : Installing Rails 3+ middleware instrumentation
+[08/12/14 01:53:10 +0100 Joels-MacBook-Pro-2.local (9488)] INFO : Installing Rails 4 Controller instrumentation
+[08/12/14 01:53:10 +0100 Joels-MacBook-Pro-2.local (9488)] INFO : Installing Rails 4 view instrumentation
+[08/12/14 01:53:10 +0100 Joels-MacBook-Pro-2.local (9488)] INFO : Installing Rails 4 Error instrumentation
+[08/12/14 01:53:10 +0100 Joels-MacBook-Pro-2.local (9488)] INFO : Finished instrumentation
+[08/12/14 01:53:11 +0100 Joels-MacBook-Pro-2.local (9488)] INFO : Reporting to: https://rpm.newrelic.com/accounts/445162/applications/4640754
+[08/12/14 01:55:53 +0100 Joels-MacBook-Pro-2.local (9492)] INFO : Starting Agent shutdown
+[08/12/14 02:35:05 +0100 Joels-MacBook-Pro-2.local (9418)] INFO : Starting Agent shutdown
+[08/12/14 02:35:05 +0100 Joels-MacBook-Pro-2.local (9488)] INFO : Starting Agent shutdown
+[08/12/14 17:14:03 +0100 Joels-MacBook-Pro-2.local (615)] INFO : Starting the New Relic agent in "development" environment.
+[08/12/14 17:14:03 +0100 Joels-MacBook-Pro-2.local (615)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/12/14 17:14:03 +0100 Joels-MacBook-Pro-2.local (615)] INFO : Reading configuration from config/newrelic.yml
+[08/12/14 17:14:03 +0100 Joels-MacBook-Pro-2.local (615)] INFO : New Relic Agent Developer Mode enabled.
+[08/12/14 17:14:03 +0100 Joels-MacBook-Pro-2.local (615)] INFO : Environment: development
+[08/12/14 17:14:03 +0100 Joels-MacBook-Pro-2.local (615)] INFO : Dispatcher: webrick
+[08/12/14 17:14:03 +0100 Joels-MacBook-Pro-2.local (615)] INFO : Application: My Application (Development)
+[08/12/14 17:14:03 +0100 Joels-MacBook-Pro-2.local (615)] INFO : Installing ActiveRecord 4 instrumentation
+[08/12/14 17:14:03 +0100 Joels-MacBook-Pro-2.local (615)] INFO : Installing Net instrumentation
+[08/12/14 17:14:03 +0100 Joels-MacBook-Pro-2.local (615)] INFO : Installing deferred Rack instrumentation
+[08/12/14 17:14:03 +0100 Joels-MacBook-Pro-2.local (615)] INFO : Installing Rack::Builder middleware instrumentation
+[08/12/14 17:14:03 +0100 Joels-MacBook-Pro-2.local (615)] INFO : Installing Rails 3+ middleware instrumentation
+[08/12/14 17:14:03 +0100 Joels-MacBook-Pro-2.local (615)] INFO : Installing Rails 4 Controller instrumentation
+[08/12/14 17:14:03 +0100 Joels-MacBook-Pro-2.local (615)] INFO : Installing Rails 4 view instrumentation
+[08/12/14 17:14:03 +0100 Joels-MacBook-Pro-2.local (615)] INFO : Installing Rails 4 Error instrumentation
+[08/12/14 17:14:03 +0100 Joels-MacBook-Pro-2.local (615)] INFO : Finished instrumentation
+[08/12/14 17:14:04 +0100 Joels-MacBook-Pro-2.local (615)] INFO : Doing deferred dependency-detection before Rack startup
+[08/12/14 17:14:28 +0100 Joels-MacBook-Pro-2.local (615)] INFO : Reporting to: https://rpm.newrelic.com/accounts/445162/applications/4640754
+[08/12/14 17:40:13 +0100 Joels-MacBook-Pro-2.local (615)] INFO : Starting Agent shutdown
+[08/12/14 18:36:19 +0100 Joels-MacBook-Pro-2.local (803)] INFO : Starting the New Relic agent in "development" environment.
+[08/12/14 18:36:19 +0100 Joels-MacBook-Pro-2.local (803)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/12/14 18:36:19 +0100 Joels-MacBook-Pro-2.local (803)] INFO : Reading configuration from config/newrelic.yml
+[08/12/14 18:36:19 +0100 Joels-MacBook-Pro-2.local (803)] INFO : New Relic Agent Developer Mode enabled.
+[08/12/14 18:36:19 +0100 Joels-MacBook-Pro-2.local (803)] INFO : Environment: development
+[08/12/14 18:36:19 +0100 Joels-MacBook-Pro-2.local (803)] INFO : Dispatcher: webrick
+[08/12/14 18:36:19 +0100 Joels-MacBook-Pro-2.local (803)] INFO : Application: My Application (Development)
+[08/12/14 18:36:19 +0100 Joels-MacBook-Pro-2.local (803)] INFO : Installing ActiveRecord 4 instrumentation
+[08/12/14 18:36:19 +0100 Joels-MacBook-Pro-2.local (803)] INFO : Installing Net instrumentation
+[08/12/14 18:36:19 +0100 Joels-MacBook-Pro-2.local (803)] INFO : Installing deferred Rack instrumentation
+[08/12/14 18:36:19 +0100 Joels-MacBook-Pro-2.local (803)] INFO : Installing Rack::Builder middleware instrumentation
+[08/12/14 18:36:19 +0100 Joels-MacBook-Pro-2.local (803)] INFO : Installing Rails 3+ middleware instrumentation
+[08/12/14 18:36:19 +0100 Joels-MacBook-Pro-2.local (803)] INFO : Installing Rails 4 Controller instrumentation
+[08/12/14 18:36:19 +0100 Joels-MacBook-Pro-2.local (803)] INFO : Installing Rails 4 view instrumentation
+[08/12/14 18:36:19 +0100 Joels-MacBook-Pro-2.local (803)] INFO : Installing Rails 4 Error instrumentation
+[08/12/14 18:36:19 +0100 Joels-MacBook-Pro-2.local (803)] INFO : Finished instrumentation
+[08/12/14 18:36:19 +0100 Joels-MacBook-Pro-2.local (803)] INFO : Doing deferred dependency-detection before Rack startup
+[08/12/14 18:38:24 +0100 Joels-MacBook-Pro-2.local (803)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[08/12/14 18:38:24 +0100 Joels-MacBook-Pro-2.local (803)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-110.newrelic.com:443: execution expired
+[08/12/14 18:38:24 +0100 Joels-MacBook-Pro-2.local (803)] INFO : Will re-attempt in 60 seconds
+[08/12/14 18:39:25 +0100 Joels-MacBook-Pro-2.local (803)] INFO : Reporting to: https://rpm.newrelic.com/accounts/445162/applications/4640754
+[08/12/14 22:23:25 +0100 Joels-MacBook-Pro-2.local (803)] ERROR : Error running task in Agent Worker Loop:
+[08/12/14 22:23:25 +0100 Joels-MacBook-Pro-2.local (803)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[08/12/14 22:23:25 +0100 Joels-MacBook-Pro-2.local (803)] ERROR : Error running task in Agent Worker Loop:
+[08/12/14 22:23:25 +0100 Joels-MacBook-Pro-2.local (803)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[08/13/14 16:58:12 +0100 Joels-MacBook-Pro-2.local (803)] INFO : Starting Agent shutdown
+[08/15/14 20:52:12 +0100 joels-mbp-2 (549)] INFO : Starting the New Relic agent in "development" environment.
+[08/15/14 20:52:12 +0100 joels-mbp-2 (549)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/15/14 20:52:12 +0100 joels-mbp-2 (549)] INFO : Reading configuration from config/newrelic.yml
+[08/15/14 20:52:12 +0100 joels-mbp-2 (549)] INFO : New Relic Agent Developer Mode enabled.
+[08/15/14 20:52:12 +0100 joels-mbp-2 (549)] INFO : Environment: development
+[08/15/14 20:52:12 +0100 joels-mbp-2 (549)] INFO : Dispatcher: webrick
+[08/15/14 20:52:12 +0100 joels-mbp-2 (549)] INFO : Application: My Application (Development)
+[08/15/14 20:52:12 +0100 joels-mbp-2 (549)] INFO : Installing ActiveRecord 4 instrumentation
+[08/15/14 20:52:12 +0100 joels-mbp-2 (549)] INFO : Installing Net instrumentation
+[08/15/14 20:52:12 +0100 joels-mbp-2 (549)] INFO : Installing deferred Rack instrumentation
+[08/15/14 20:52:12 +0100 joels-mbp-2 (549)] INFO : Installing Rack::Builder middleware instrumentation
+[08/15/14 20:52:12 +0100 joels-mbp-2 (549)] INFO : Installing Rails 3+ middleware instrumentation
+[08/15/14 20:52:12 +0100 joels-mbp-2 (549)] INFO : Installing Rails 4 Controller instrumentation
+[08/15/14 20:52:12 +0100 joels-mbp-2 (549)] INFO : Installing Rails 4 view instrumentation
+[08/15/14 20:52:12 +0100 joels-mbp-2 (549)] INFO : Installing Rails 4 Error instrumentation
+[08/15/14 20:52:12 +0100 joels-mbp-2 (549)] INFO : Finished instrumentation
+[08/15/14 20:52:12 +0100 joels-mbp-2 (549)] INFO : Doing deferred dependency-detection before Rack startup
+[08/15/14 20:52:14 +0100 joels-mbp-2 (549)] INFO : Reporting to: https://rpm.newrelic.com/accounts/445162/applications/4640754
+[08/15/14 20:55:26 +0100 joels-mbp-2 (683)] INFO : Starting the New Relic agent in "development" environment.
+[08/15/14 20:55:26 +0100 joels-mbp-2 (683)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/15/14 20:55:26 +0100 joels-mbp-2 (683)] INFO : Reading configuration from config/newrelic.yml
+[08/15/14 20:55:26 +0100 joels-mbp-2 (683)] INFO : New Relic Agent Developer Mode enabled.
+[08/15/14 20:55:26 +0100 joels-mbp-2 (683)] INFO : Environment: development
+[08/15/14 20:55:26 +0100 joels-mbp-2 (683)] INFO : No known dispatcher detected.
+[08/15/14 20:55:26 +0100 joels-mbp-2 (683)] INFO : Application: My Application (Development)
+[08/15/14 20:55:26 +0100 joels-mbp-2 (683)] INFO : Installing ActiveRecord 4 instrumentation
+[08/15/14 20:55:26 +0100 joels-mbp-2 (683)] INFO : Installing Net instrumentation
+[08/15/14 20:55:26 +0100 joels-mbp-2 (683)] INFO : Installing deferred Rack instrumentation
+[08/15/14 20:55:26 +0100 joels-mbp-2 (683)] INFO : Installing Rack::Builder middleware instrumentation
+[08/15/14 20:55:26 +0100 joels-mbp-2 (683)] INFO : Installing Rails 3+ middleware instrumentation
+[08/15/14 20:55:26 +0100 joels-mbp-2 (683)] INFO : Installing Rails 4 Controller instrumentation
+[08/15/14 20:55:26 +0100 joels-mbp-2 (683)] INFO : Installing Rails 4 view instrumentation
+[08/15/14 20:55:26 +0100 joels-mbp-2 (683)] INFO : Installing Rails 4 Error instrumentation
+[08/15/14 20:55:26 +0100 joels-mbp-2 (683)] INFO : Finished instrumentation
+[08/15/14 20:55:27 +0100 joels-mbp-2 (683)] INFO : Reporting to: https://rpm.newrelic.com/accounts/445162/applications/4640754
+[08/15/14 22:42:45 +0100 joels-mbp-2 (549)] INFO : Error during check_for_and_handle_agent_commands, will retry later: 
+[08/15/14 22:42:45 +0100 joels-mbp-2 (549)] INFO : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-110.newrelic.com:443: execution expired
+[08/15/14 22:57:52 +0100 joels-mbp-2 (689)] INFO : Starting Agent shutdown
+[08/15/14 22:58:04 +0100 joels-mbp-2 (1491)] INFO : Starting Agent shutdown
+[08/16/14 00:44:04 +0100 joels-mbp-2 (683)] ERROR : Error running task in Agent Worker Loop:
+[08/16/14 00:44:04 +0100 joels-mbp-2 (683)] ERROR : Errno::ENETUNREACH: Network is unreachable - connect(2) for "collector-110.newrelic.com" port 443
+[08/16/14 01:12:29 +0100 joels-mbp-2 (683)] ERROR : Error running task in Agent Worker Loop:
+[08/16/14 01:12:29 +0100 joels-mbp-2 (683)] ERROR : Errno::ENETUNREACH: Network is unreachable - connect(2) for "collector-110.newrelic.com" port 443
+[08/16/14 01:12:42 +0100 joels-mbp-2 (549)] ERROR : Error running task in Agent Worker Loop:
+[08/16/14 01:12:42 +0100 joels-mbp-2 (549)] ERROR : Errno::ENETUNREACH: Network is unreachable - connect(2) for "collector-110.newrelic.com" port 443
+[08/16/14 01:13:16 +0100 joels-mbp-2 (549)] ERROR : Error running task in Agent Worker Loop:
+[08/16/14 01:13:16 +0100 joels-mbp-2 (549)] ERROR : Errno::ENETUNREACH: Network is unreachable - connect(2) for "collector-110.newrelic.com" port 443
+[08/16/14 01:13:29 +0100 joels-mbp-2 (683)] ERROR : Error running task in Agent Worker Loop:
+[08/16/14 01:13:29 +0100 joels-mbp-2 (683)] ERROR : Errno::ENETUNREACH: Network is unreachable - connect(2) for "collector-110.newrelic.com" port 443
+[08/16/14 01:42:54 +0100 joels-mbp-2 (4278)] INFO : Starting Agent shutdown
+[08/16/14 01:44:29 +0100 joels-mbp-2 (4670)] INFO : Starting Agent shutdown
+[08/16/14 01:45:12 +0100 joels-mbp-2 (4681)] INFO : Starting Agent shutdown
+[08/16/14 01:49:44 +0100 joels-mbp-2 (4714)] INFO : Starting Agent shutdown
+[08/16/14 01:49:50 +0100 joels-mbp-2 (4767)] INFO : Starting Agent shutdown
+[08/16/14 01:50:22 +0100 joels-mbp-2 (4779)] INFO : Starting Agent shutdown
+[08/16/14 01:51:01 +0100 joels-mbp-2 (4794)] INFO : Starting Agent shutdown
+[08/16/14 01:52:55 +0100 joels-mbp-2 (4833)] INFO : Starting Agent shutdown
+[08/16/14 01:56:59 +0100 joels-mbp-2 (4851)] INFO : Starting Agent shutdown
+[08/16/14 01:57:43 +0100 joels-mbp-2 (4913)] INFO : Starting Agent shutdown
+[08/16/14 01:58:26 +0100 joels-mbp-2 (4929)] INFO : Starting Agent shutdown
+[08/16/14 01:58:55 +0100 joels-mbp-2 (4951)] INFO : Starting Agent shutdown
+[08/16/14 01:59:17 +0100 joels-mbp-2 (4957)] INFO : Starting Agent shutdown
+[08/16/14 01:59:58 +0100 joels-mbp-2 (4971)] INFO : Starting Agent shutdown
+[08/16/14 02:08:34 +0100 joels-mbp-2 (683)] ERROR : Error running task in Agent Worker Loop:
+[08/16/14 02:08:34 +0100 joels-mbp-2 (683)] ERROR : Errno::ENETUNREACH: Network is unreachable - connect(2) for "collector-110.newrelic.com" port 443
+[08/16/14 02:09:20 +0100 joels-mbp-2 (549)] ERROR : Error running task in Agent Worker Loop:
+[08/16/14 02:09:20 +0100 joels-mbp-2 (549)] ERROR : Errno::ENETUNREACH: Network is unreachable - connect(2) for "collector-110.newrelic.com" port 443
+[08/16/14 02:09:29 +0100 joels-mbp-2 (683)] ERROR : Error running task in Agent Worker Loop:
+[08/16/14 02:09:29 +0100 joels-mbp-2 (683)] ERROR : Errno::ENETUNREACH: Network is unreachable - connect(2) for "collector-110.newrelic.com" port 443
+[08/16/14 02:19:29 +0100 joels-mbp-2 (683)] ERROR : Error running task in Agent Worker Loop:
+[08/16/14 02:19:29 +0100 joels-mbp-2 (683)] ERROR : Errno::ENETUNREACH: Network is unreachable - connect(2) for "collector-110.newrelic.com" port 443
+[08/16/14 02:19:31 +0100 joels-mbp-2 (549)] ERROR : Error running task in Agent Worker Loop:
+[08/16/14 02:19:31 +0100 joels-mbp-2 (549)] ERROR : Errno::ENETUNREACH: Network is unreachable - connect(2) for "collector-110.newrelic.com" port 443
+[08/16/14 02:20:25 +0100 joels-mbp-2 (5007)] INFO : Starting Agent shutdown
+[08/16/14 02:22:29 +0100 joels-mbp-2 (683)] ERROR : Error running task in Agent Worker Loop:
+[08/16/14 02:22:29 +0100 joels-mbp-2 (683)] ERROR : Errno::ENETUNREACH: Network is unreachable - connect(2) for "collector-110.newrelic.com" port 443
+[08/16/14 02:22:39 +0100 joels-mbp-2 (549)] ERROR : Error running task in Agent Worker Loop:
+[08/16/14 02:22:39 +0100 joels-mbp-2 (549)] ERROR : Errno::ENETUNREACH: Network is unreachable - connect(2) for "collector-110.newrelic.com" port 443
+[08/16/14 02:26:29 +0100 joels-mbp-2 (683)] ERROR : Error running task in Agent Worker Loop:
+[08/16/14 02:26:29 +0100 joels-mbp-2 (683)] ERROR : Errno::ENETUNREACH: Network is unreachable - connect(2) for "collector-110.newrelic.com" port 443
+[08/16/14 02:26:46 +0100 joels-mbp-2 (549)] ERROR : Error running task in Agent Worker Loop:
+[08/16/14 02:26:46 +0100 joels-mbp-2 (549)] ERROR : Errno::ENETUNREACH: Network is unreachable - connect(2) for "collector-110.newrelic.com" port 443
+[08/16/14 02:27:15 +0100 joels-mbp-2 (549)] ERROR : Error running task in Agent Worker Loop:
+[08/16/14 02:27:15 +0100 joels-mbp-2 (549)] ERROR : Errno::ENETUNREACH: Network is unreachable - connect(2) for "collector-110.newrelic.com" port 443
