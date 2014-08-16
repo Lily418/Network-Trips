@@ -3,10 +3,10 @@ class SessionsController < ApplicationController
       user = User.find_by(email: params[:email].downcase)
       if user && user.authenticate(params[:password])
           login user.id
-          redirect_to request.referer
       else
-          render plain: "Incorrect Username or Password"
+          flash[0] = "Incorrect Email or Password"
       end
+          redirect_to request.referer
   end
 
   def delete
