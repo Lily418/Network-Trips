@@ -15,7 +15,7 @@
             </div>
             <div class='col-md-4'>
                 <div id='booking-info'>
-                    <h2><%= @trip.date.mday.ordinalize + " " + @trip.date.strftime("%B") %></h2>
+                    <h2><%= @trip.date_to_string %></h2>
                     <%= @trip.booking_info.html_safe %>
 
                     <div id='booking-pane'>

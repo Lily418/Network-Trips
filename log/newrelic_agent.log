@@ -766,3 +766,58 @@
 [08/16/14 05:19:07 +0100 Joels-MacBook-Pro-2.local (8486)] INFO : Starting Agent shutdown
 [08/16/14 05:38:50 +0100 Joels-MacBook-Pro-2.local (8757)] INFO : Starting Agent shutdown
 [08/16/14 05:39:58 +0100 Joels-MacBook-Pro-2.local (9151)] INFO : Starting Agent shutdown
+[08/16/14 06:19:28 +0100 Joels-MacBook-Pro-2.local (8134)] INFO : Error during check_for_and_handle_agent_commands, will retry later: 
+[08/16/14 06:19:28 +0100 Joels-MacBook-Pro-2.local (8134)] INFO : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-110.newrelic.com:443: Operation timed out
+[08/16/14 06:20:43 +0100 Joels-MacBook-Pro-2.local (8134)] ERROR : Error running task in Agent Worker Loop:
+[08/16/14 06:20:43 +0100 Joels-MacBook-Pro-2.local (8134)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[08/16/14 06:20:46 +0100 Joels-MacBook-Pro-2.local (8320)] ERROR : Error running task in Agent Worker Loop:
+[08/16/14 06:20:46 +0100 Joels-MacBook-Pro-2.local (8320)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[08/16/14 06:23:47 +0100 Joels-MacBook-Pro-2.local (10118)] INFO : Starting Agent shutdown
+[08/16/14 06:25:14 +0100 Joels-MacBook-Pro-2.local (9871)] INFO : Starting Agent shutdown
+[08/16/14 06:25:25 +0100 Joels-MacBook-Pro-2.local (10154)] INFO : Starting Agent shutdown
+[08/16/14 06:25:26 +0100 Joels-MacBook-Pro-2.local (8320)] INFO : Starting Agent shutdown
+[08/16/14 06:25:41 +0100 Joels-MacBook-Pro-2.local (10164)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 06:25:41 +0100 Joels-MacBook-Pro-2.local (10164)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 06:25:41 +0100 Joels-MacBook-Pro-2.local (10164)] INFO : Reading configuration from config/newrelic.yml
+[08/16/14 06:25:41 +0100 Joels-MacBook-Pro-2.local (10164)] INFO : New Relic Agent Developer Mode enabled.
+[08/16/14 06:25:41 +0100 Joels-MacBook-Pro-2.local (10164)] INFO : Environment: development
+[08/16/14 06:25:41 +0100 Joels-MacBook-Pro-2.local (10164)] INFO : No known dispatcher detected.
+[08/16/14 06:25:41 +0100 Joels-MacBook-Pro-2.local (10164)] INFO : Application: My Application (Development)
+[08/16/14 06:25:41 +0100 Joels-MacBook-Pro-2.local (10164)] INFO : Installing ActiveRecord 4 instrumentation
+[08/16/14 06:25:41 +0100 Joels-MacBook-Pro-2.local (10164)] INFO : Installing Net instrumentation
+[08/16/14 06:25:41 +0100 Joels-MacBook-Pro-2.local (10164)] INFO : Installing deferred Rack instrumentation
+[08/16/14 06:25:41 +0100 Joels-MacBook-Pro-2.local (10164)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 06:25:41 +0100 Joels-MacBook-Pro-2.local (10164)] INFO : Installing Rails 3+ middleware instrumentation
+[08/16/14 06:25:41 +0100 Joels-MacBook-Pro-2.local (10164)] INFO : Installing Rails 4 Controller instrumentation
+[08/16/14 06:25:41 +0100 Joels-MacBook-Pro-2.local (10164)] INFO : Installing Rails 4 view instrumentation
+[08/16/14 06:25:41 +0100 Joels-MacBook-Pro-2.local (10164)] INFO : Installing Rails 4 Error instrumentation
+[08/16/14 06:25:41 +0100 Joels-MacBook-Pro-2.local (10164)] INFO : Finished instrumentation
+[08/16/14 06:25:42 +0100 Joels-MacBook-Pro-2.local (10164)] INFO : Reporting to: https://rpm.newrelic.com/accounts/445162/applications/4640754
+[08/16/14 06:26:42 +0100 Joels-MacBook-Pro-2.local (10170)] INFO : Starting Agent shutdown
+[08/16/14 06:26:45 +0100 Joels-MacBook-Pro-2.local (10164)] INFO : Starting Agent shutdown
+[08/16/14 06:27:05 +0100 Joels-MacBook-Pro-2.local (10255)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 06:27:05 +0100 Joels-MacBook-Pro-2.local (10255)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 06:27:05 +0100 Joels-MacBook-Pro-2.local (10255)] INFO : Reading configuration from config/newrelic.yml
+[08/16/14 06:27:05 +0100 Joels-MacBook-Pro-2.local (10255)] INFO : New Relic Agent Developer Mode enabled.
+[08/16/14 06:27:05 +0100 Joels-MacBook-Pro-2.local (10255)] INFO : Environment: development
+[08/16/14 06:27:05 +0100 Joels-MacBook-Pro-2.local (10255)] INFO : No known dispatcher detected.
+[08/16/14 06:27:05 +0100 Joels-MacBook-Pro-2.local (10255)] INFO : Application: My Application (Development)
+[08/16/14 06:27:05 +0100 Joels-MacBook-Pro-2.local (10255)] INFO : Installing ActiveRecord 4 instrumentation
+[08/16/14 06:27:05 +0100 Joels-MacBook-Pro-2.local (10255)] INFO : Installing Net instrumentation
+[08/16/14 06:27:05 +0100 Joels-MacBook-Pro-2.local (10255)] INFO : Installing deferred Rack instrumentation
+[08/16/14 06:27:05 +0100 Joels-MacBook-Pro-2.local (10255)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 06:27:05 +0100 Joels-MacBook-Pro-2.local (10255)] INFO : Installing Rails 3+ middleware instrumentation
+[08/16/14 06:27:05 +0100 Joels-MacBook-Pro-2.local (10255)] INFO : Installing Rails 4 Controller instrumentation
+[08/16/14 06:27:05 +0100 Joels-MacBook-Pro-2.local (10255)] INFO : Installing Rails 4 view instrumentation
+[08/16/14 06:27:05 +0100 Joels-MacBook-Pro-2.local (10255)] INFO : Installing Rails 4 Error instrumentation
+[08/16/14 06:27:05 +0100 Joels-MacBook-Pro-2.local (10255)] INFO : Finished instrumentation
+[08/16/14 06:27:05 +0100 Joels-MacBook-Pro-2.local (10259)] INFO : Starting Agent shutdown
+[08/16/14 06:27:06 +0100 Joels-MacBook-Pro-2.local (10255)] INFO : Reporting to: https://rpm.newrelic.com/accounts/445162/applications/4640754
+[08/16/14 06:28:11 +0100 Joels-MacBook-Pro-2.local (10287)] INFO : Starting Agent shutdown
+[08/16/14 06:36:07 +0100 Joels-MacBook-Pro-2.local (10255)] ERROR : Error running task in Agent Worker Loop:
+[08/16/14 06:36:07 +0100 Joels-MacBook-Pro-2.local (10255)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[08/16/14 06:36:07 +0100 Joels-MacBook-Pro-2.local (8134)] ERROR : Error running task in Agent Worker Loop:
+[08/16/14 06:36:07 +0100 Joels-MacBook-Pro-2.local (8134)] ERROR : Errno::ETIMEDOUT: Operation timed out - connect(2) for "collector-110.newrelic.com" port 443
+[08/16/14 06:36:54 +0100 Joels-MacBook-Pro-2.local (8134)] ERROR : Error running task in Agent Worker Loop:
+[08/16/14 06:36:54 +0100 Joels-MacBook-Pro-2.local (8134)] ERROR : Errno::ENETUNREACH: Network is unreachable - connect(2) for "collector-110.newrelic.com" port 443
+[08/16/14 09:30:27 +0100 Joels-MacBook-Pro-2.local (10303)] INFO : Starting Agent shutdown

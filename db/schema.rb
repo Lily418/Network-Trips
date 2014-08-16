@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140816005255) do
+ActiveRecord::Schema.define(version: 20140816052811) do
 
   create_table "comments", force: true do |t|
     t.integer  "user_id"
@@ -62,6 +62,8 @@ ActiveRecord::Schema.define(version: 20140816005255) do
     t.string   "highlight_text"
     t.date     "date"
     t.string   "booking_info"
+    t.string   "tagline"
+    t.string   "departing"
   end
 
   add_index "trips", ["page_name"], name: "index_trips_on_page_name", unique: true
