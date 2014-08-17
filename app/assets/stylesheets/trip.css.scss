@@ -102,11 +102,7 @@
     float:right;
 }
 
-#comment-text-area {
-    width:100%;
-}
-
-#add-comment textarea {
+#comment-text-input {
     width:100%;
     resize:vertical;
     min-height:100px;
@@ -128,4 +124,9 @@
 .reply-pane {
     padding-right:100px;
     position:relative;
+}
+
+#sign-up-or-login-to-comment {
+    margin-top:20px;
+    margin-bottom:20px;
 }

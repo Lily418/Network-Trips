@@ -30,4 +30,5 @@ $( document ).ready(function(){
     $( ".login-link" ).click(show_login_modal);
     $( ".sign-up-link" ).click(show_signup_modal);
     show_images();
+
 });

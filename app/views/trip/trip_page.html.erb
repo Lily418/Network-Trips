@@ -57,22 +57,23 @@
                 <button id='buddies-button-right' class='btn btn-lg btn-primary'><span class="glyphicon glyphicon-chevron-right"></span></button>
             </div>
         </div>
+        <div class='row'>
+        <div class='col-md-8 col-md-offset-4'>
         <% if current_user.nil? %>
-            <h2><span class='sign-up-link'>Sign Up</span> or <span class='login-link'>Login</span> and book a ticket to comment </h2>
+            <h2 id='sign-up-or-login-to-comment'><span class='sign-up-link'>Sign Up</span> or <span class='login-link'>Login</span> and book a ticket to comment </h2>
         <% elsif !@has_ticket %>
             <h2 class='comment-heading'>Before you can join the conversation you must <a>Buy a Ticket</a></h2>
         <% else %>
-        <div class='row'>
-            <div class='col-md-4'></div>
-            <div id='add-comment' class='col-md-8'>
+
+
             <%= form_tag('/comments?trip=' + @trip.id.to_s, method:'post') do %>
                 <h3><%= label_tag(:comment, 'Join the Conversation')%></h3>
-                <%= text_area_tag(:comment) %><br />
+                <%= text_area_tag(:comment, "", id: "comment-text-input") %><br />
                 <%= submit_tag('Post', id: "post-button") %>
             <% end %>
-        </div>
-    </div>
         <% end %>
+    </div>
+</div>
 
         <% for comment in @comments %>
         <div class='trip-comment row'>

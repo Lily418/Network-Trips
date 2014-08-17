@@ -867,3 +867,41 @@
 [08/18/14 00:05:16 +0100 joels-mbp-2.home (1372)] INFO : Finished instrumentation
 [08/18/14 00:05:18 +0100 joels-mbp-2.home (1372)] INFO : Reporting to: https://rpm.newrelic.com/accounts/445162/applications/4640754
 [08/18/14 00:08:04 +0100 joels-mbp-2.home (1376)] INFO : Starting Agent shutdown
+[08/18/14 00:19:48 +0100 joels-mbp-2.home (1372)] INFO : Starting Agent shutdown
+[08/18/14 00:20:13 +0100 joels-mbp-2.home (1660)] INFO : Starting the New Relic agent in "development" environment.
+[08/18/14 00:20:13 +0100 joels-mbp-2.home (1660)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/18/14 00:20:13 +0100 joels-mbp-2.home (1660)] INFO : Reading configuration from config/newrelic.yml
+[08/18/14 00:20:13 +0100 joels-mbp-2.home (1660)] INFO : New Relic Agent Developer Mode enabled.
+[08/18/14 00:20:13 +0100 joels-mbp-2.home (1660)] INFO : Environment: development
+[08/18/14 00:20:13 +0100 joels-mbp-2.home (1660)] INFO : No known dispatcher detected.
+[08/18/14 00:20:13 +0100 joels-mbp-2.home (1660)] INFO : Application: My Application (Development)
+[08/18/14 00:20:13 +0100 joels-mbp-2.home (1660)] INFO : Installing ActiveRecord 4 instrumentation
+[08/18/14 00:20:13 +0100 joels-mbp-2.home (1660)] INFO : Installing Net instrumentation
+[08/18/14 00:20:13 +0100 joels-mbp-2.home (1660)] INFO : Installing deferred Rack instrumentation
+[08/18/14 00:20:13 +0100 joels-mbp-2.home (1660)] INFO : Installing Rack::Builder middleware instrumentation
+[08/18/14 00:20:13 +0100 joels-mbp-2.home (1660)] INFO : Installing Rails 3+ middleware instrumentation
+[08/18/14 00:20:13 +0100 joels-mbp-2.home (1660)] INFO : Installing Rails 4 Controller instrumentation
+[08/18/14 00:20:14 +0100 joels-mbp-2.home (1660)] INFO : Installing Rails 4 view instrumentation
+[08/18/14 00:20:14 +0100 joels-mbp-2.home (1660)] INFO : Installing Rails 4 Error instrumentation
+[08/18/14 00:20:14 +0100 joels-mbp-2.home (1660)] INFO : Finished instrumentation
+[08/18/14 00:20:15 +0100 joels-mbp-2.home (1660)] INFO : Reporting to: https://rpm.newrelic.com/accounts/445162/applications/4640754
+[08/18/14 00:21:14 +0100 joels-mbp-2.home (952)] INFO : Starting Agent shutdown
+[08/18/14 00:21:16 +0100 joels-mbp-2.home (1684)] INFO : Starting the New Relic agent in "development" environment.
+[08/18/14 00:21:16 +0100 joels-mbp-2.home (1684)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/18/14 00:21:16 +0100 joels-mbp-2.home (1684)] INFO : Reading configuration from config/newrelic.yml
+[08/18/14 00:21:16 +0100 joels-mbp-2.home (1684)] INFO : New Relic Agent Developer Mode enabled.
+[08/18/14 00:21:16 +0100 joels-mbp-2.home (1684)] INFO : Environment: development
+[08/18/14 00:21:16 +0100 joels-mbp-2.home (1684)] INFO : Dispatcher: webrick
+[08/18/14 00:21:16 +0100 joels-mbp-2.home (1684)] INFO : Application: My Application (Development)
+[08/18/14 00:21:16 +0100 joels-mbp-2.home (1684)] INFO : Installing ActiveRecord 4 instrumentation
+[08/18/14 00:21:16 +0100 joels-mbp-2.home (1684)] INFO : Installing Net instrumentation
+[08/18/14 00:21:16 +0100 joels-mbp-2.home (1684)] INFO : Installing deferred Rack instrumentation
+[08/18/14 00:21:16 +0100 joels-mbp-2.home (1684)] INFO : Installing Rack::Builder middleware instrumentation
+[08/18/14 00:21:16 +0100 joels-mbp-2.home (1684)] INFO : Installing Rails 3+ middleware instrumentation
+[08/18/14 00:21:16 +0100 joels-mbp-2.home (1684)] INFO : Installing Rails 4 Controller instrumentation
+[08/18/14 00:21:17 +0100 joels-mbp-2.home (1684)] INFO : Installing Rails 4 view instrumentation
+[08/18/14 00:21:17 +0100 joels-mbp-2.home (1684)] INFO : Installing Rails 4 Error instrumentation
+[08/18/14 00:21:17 +0100 joels-mbp-2.home (1684)] INFO : Finished instrumentation
+[08/18/14 00:21:17 +0100 joels-mbp-2.home (1684)] INFO : Doing deferred dependency-detection before Rack startup
+[08/18/14 00:21:18 +0100 joels-mbp-2.home (1684)] INFO : Reporting to: https://rpm.newrelic.com/accounts/445162/applications/4640754
+[08/18/14 00:33:38 +0100 joels-mbp-2.home (1806)] INFO : Starting Agent shutdown

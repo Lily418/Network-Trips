@@ -12,7 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= require jquery.turbolinks
 function show_login_modal(){
     $( login_form_string ).dialog({modal:true, title: "Login"}
     );
@@ -25,6 +25,7 @@ function show_signup_modal(){
 function close_flash(){
     $( this ).parent().remove();
 }
+
 
 $( document ).ready(function(){
     $( "#user-login" ).click(show_login_modal);
