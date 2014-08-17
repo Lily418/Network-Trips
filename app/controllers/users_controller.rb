@@ -6,9 +6,10 @@ class UsersController < ApplicationController
                 flash[index] = message
             end
         else
+            Place.find(params[:placeId]).users << user unless params[:placeId].nil?
             login user.id
         end
-        
+
         redirect_to request.referer
     end
 end

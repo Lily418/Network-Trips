@@ -25,6 +25,14 @@
     sign_up_form = escape_javascript sign_up_form
 %>
 
+
+
+function createSignUpForm(placeId){
+    $signUpFormWithTripId = $(sign_up_form);
+    $signUpFormWithTripId.attr("action", "users/?placeId=" + placeId);
+    return $signUpFormWithTripId;
+}
+
 function id_like_to_go_update(place_id, $div){
 
     $.ajax({
@@ -42,7 +50,7 @@ function id_like_to_go_clicked(){
     var $div = $( this ).parent().parent();
     <% if current_user.nil? %>
         var place_name = $div.children( "h3" ).text();
-        $("<p>To keep updated when we run a trip to " + place_name + "</p>" + sign_up_form ).dialog({modal:true, title: "Sign Up"});
+        $("<div><p id='keep-updated'>To be notified when we run a trip to " + place_name + "</p></div>" ).append(createSignUpForm(place_id)).dialog({modal:true, title: "Sign Up"});
     <% else %>
         id_like_to_go_update(place_id, $div)
     <% end %>
