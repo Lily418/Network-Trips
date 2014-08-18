@@ -1,11 +1,12 @@
 <script>
 <%
     login_form = form_tag('/sessions', method: 'post', id: "login-form") do
+    content_tag(:div, render('/layouts/messages')) +
     content_tag(:p, "Need to Register?", class:"user-signup form-option") +
     label_tag(:email, 'Email:') +
-    text_field_tag(:email, "", class: "login-text-input") +
+    text_field_tag_helper(:email, nil, class: "login-text-input") +
     label_tag(:password, 'Password:') +
-    password_field_tag(:password, "", class: "login-text-input") +
+    password_field_tag(:password, nil, class: "login-text-input") +
     submit_tag('Login', id: "login-button")
     end
     login_form = escape_javascript(login_form)
@@ -13,21 +14,20 @@
 
 <%
     sign_up_form = form_tag('/users', method: 'post', id: "sign-up-form") do
+        content_tag(:div, render('/layouts/messages')) +
         content_tag(:p, "Already Registered?", class:"user-login form-option") +
-        label_tag(:name, 'Name:') +
-        text_field_tag(:name, "", class: "login-text-input") +
+        label_tag(:name, "Name:") +
+        text_field_tag_helper(:name, (flash["params"].nil? ? "" : flash["params"]["name"]), class: "login-text-input") +
         label_tag(:email, 'Email:') +
-        text_field_tag(:email, "", class: "login-text-input") +
+        text_field_tag_helper(:email, nil, class: "login-text-input") +
         label_tag(:password, 'Password:') +
-        password_field_tag(:password, "", class: "login-text-input") +
+        password_field_tag(:password, nil, class: "login-text-input") +
         label_tag(:password_confirmation, 'Password Confirmation:') +
-        password_field_tag(:password_confirmation, "", class: "login-text-input") +
+        password_field_tag(:password_confirmation, nil, class: "login-text-input") +
         submit_tag('Sign Up', id: "sign-up-button")
     end
     sign_up_form = escape_javascript sign_up_form
 %>
-
-
 
 function createSignUpForm(placeId){
     $signUpFormWithTripId = $(sign_up_form);
@@ -59,4 +59,15 @@ function id_like_to_go_clicked(){
 }
 var login_form_string = "<%= login_form %>";
 var sign_up_form = "<%= sign_up_form %>";
+
+$( document ).ready(function(){
+    <% unless flash["previous_action"].nil? %>
+        <% case flash["previous_action"] %>
+            <% when "SessionsController.create" %>
+            <%= "show_login_modal()" %>
+            <% when "UsersController.create" %>
+            <%= "show_signup_modal()" %>
+        <% end %>
+    <% end %>
+});
 </script>

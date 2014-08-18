@@ -905,3 +905,26 @@
 [08/18/14 00:21:17 +0100 joels-mbp-2.home (1684)] INFO : Doing deferred dependency-detection before Rack startup
 [08/18/14 00:21:18 +0100 joels-mbp-2.home (1684)] INFO : Reporting to: https://rpm.newrelic.com/accounts/445162/applications/4640754
 [08/18/14 00:33:38 +0100 joels-mbp-2.home (1806)] INFO : Starting Agent shutdown
+[08/18/14 01:47:38 +0100 joels-mbp-2.home (1684)] WARN : Skipping RUM instrumentation. Unable to find <body> tag in first 50000 bytes of document.
+[08/18/14 02:10:46 +0100 joels-mbp-2.home (1660)] INFO : Reporting to: https://rpm.newrelic.com/accounts/445162/applications/4640754
+[08/18/14 02:10:50 +0100 joels-mbp-2.home (1684)] INFO : Reporting to: https://rpm.newrelic.com/accounts/445162/applications/4640754
+[08/18/14 02:35:18 +0100 joels-mbp-2.home (3981)] INFO : Starting Agent shutdown
+[08/18/14 02:45:47 +0100 joels-mbp-2.home (1684)] INFO : Starting Agent shutdown
+[08/18/14 02:45:53 +0100 joels-mbp-2.home (4468)] INFO : Starting the New Relic agent in "development" environment.
+[08/18/14 02:45:53 +0100 joels-mbp-2.home (4468)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/18/14 02:45:53 +0100 joels-mbp-2.home (4468)] INFO : Reading configuration from config/newrelic.yml
+[08/18/14 02:45:53 +0100 joels-mbp-2.home (4468)] INFO : New Relic Agent Developer Mode enabled.
+[08/18/14 02:45:53 +0100 joels-mbp-2.home (4468)] INFO : Environment: development
+[08/18/14 02:45:53 +0100 joels-mbp-2.home (4468)] INFO : Dispatcher: webrick
+[08/18/14 02:45:53 +0100 joels-mbp-2.home (4468)] INFO : Application: My Application (Development)
+[08/18/14 02:45:54 +0100 joels-mbp-2.home (4468)] INFO : Installing ActiveRecord 4 instrumentation
+[08/18/14 02:45:54 +0100 joels-mbp-2.home (4468)] INFO : Installing Net instrumentation
+[08/18/14 02:45:54 +0100 joels-mbp-2.home (4468)] INFO : Installing deferred Rack instrumentation
+[08/18/14 02:45:54 +0100 joels-mbp-2.home (4468)] INFO : Installing Rack::Builder middleware instrumentation
+[08/18/14 02:45:54 +0100 joels-mbp-2.home (4468)] INFO : Installing Rails 3+ middleware instrumentation
+[08/18/14 02:45:54 +0100 joels-mbp-2.home (4468)] INFO : Installing Rails 4 Controller instrumentation
+[08/18/14 02:45:54 +0100 joels-mbp-2.home (4468)] INFO : Installing Rails 4 view instrumentation
+[08/18/14 02:45:54 +0100 joels-mbp-2.home (4468)] INFO : Installing Rails 4 Error instrumentation
+[08/18/14 02:45:54 +0100 joels-mbp-2.home (4468)] INFO : Finished instrumentation
+[08/18/14 02:45:54 +0100 joels-mbp-2.home (4468)] INFO : Doing deferred dependency-detection before Rack startup
+[08/18/14 02:45:55 +0100 joels-mbp-2.home (4468)] INFO : Reporting to: https://rpm.newrelic.com/accounts/445162/applications/4640754

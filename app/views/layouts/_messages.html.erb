@@ -1,8 +1,8 @@
-<% flash.each do |name, msg| %>
-  <% if msg.is_a?(String) %>
+<% unless flash["error"].nil? %>
+    <% flash["error"].each do |msg| %>
     <div class="alert alert-danger">
-      <span class="close-flash glyphicon glyphicon-remove"></span>
-      <%= content_tag :div, msg, :id => "flash_#{name}" %>
+        <span class="close-flash glyphicon glyphicon-remove"></span>
+        <%= content_tag :div, msg %>
     </div>
-  <% end %>
+<% end %>
 <% end %>

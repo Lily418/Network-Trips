@@ -4,7 +4,9 @@ class SessionsController < ApplicationController
       if user && user.authenticate(params[:password])
           login user.id
       else
-          flash[0] = "Incorrect Email or Password"
+          add_params_to_flash
+          flash["error"] = ["Incorrect Email or Password"]
+          flash["previous_action"] = "SessionsController.create"
       end
           redirect_to request.referer
   end
