@@ -14,12 +14,15 @@
 //= require jquery_ujs
 //= require jquery.turbolinks
 function show_login_modal(){
-    $( login_form_string ).dialog({modal:true, title: "Login"}
-    );
+    $(".ui-dialog-content").dialog("close");
+    $( login_form_string ).dialog({modal:true, title: "Login"});
+    $( ".user-signup" ).click(show_signup_modal);
 }
 
 function show_signup_modal(){
+    $(".ui-dialog-content").dialog("close");
     $( sign_up_form ).dialog({modal:true, title: "Sign Up"});
+    $( ".user-login" ).click(show_login_modal);
 }
 
 function close_flash(){
@@ -28,7 +31,7 @@ function close_flash(){
 
 
 $( document ).ready(function(){
-    $( "#user-login" ).click(show_login_modal);
-    $( "#user-signup" ).click(show_signup_modal);
+    $( ".user-login" ).click(show_login_modal);
+    $( ".user-signup" ).click(show_signup_modal);
     $( ".close-flash" ).click(close_flash);
 });

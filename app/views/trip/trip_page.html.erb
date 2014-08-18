@@ -60,7 +60,7 @@
         <div class='row'>
         <div class='col-md-8 col-md-offset-4'>
         <% if current_user.nil? %>
-            <h2 id='sign-up-or-login-to-comment'><span class='sign-up-link'>Sign Up</span> or <span class='login-link'>Login</span> and book a ticket to comment </h2>
+            <h2 id='sign-up-or-login-to-comment'><span class='user-signup'>Sign Up</span> or <span class='user-login'>Login</span> and book a ticket to comment </h2>
         <% elsif !@has_ticket %>
             <h2 class='comment-heading'>Before you can join the conversation you must <a>Buy a Ticket</a></h2>
         <% else %>

@@ -102,3 +102,24 @@ h1 a {
 #sign-up-button {
     float:right;
 }
+
+.form-option {
+    margin-bottom:5px;
+    margin-top:5px;
+}
+
+.user-login {
+    color: #428bca;
+}
+
+.user-signup {
+    color: #428bca;
+}
+
+.user-login:hover {
+    text-decoration:underline;
+}
+
+.user-signup:hover {
+    text-decoration:underline;
+}

@@ -27,8 +27,6 @@ function move_right(){
 $( document ).ready(function(){
     $( "#buddies-button-left" ).click(move_left);
     $( "#buddies-button-right" ).click(move_right);
-    $( ".login-link" ).click(show_login_modal);
-    $( ".sign-up-link" ).click(show_signup_modal);
     show_images();
 
 });

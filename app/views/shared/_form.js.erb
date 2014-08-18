@@ -1,17 +1,19 @@
 <script>
 <%
     login_form = form_tag('/sessions', method: 'post', id: "login-form") do
+    content_tag(:p, "Need to Register?", class:"user-signup form-option") +
     label_tag(:email, 'Email:') +
     text_field_tag(:email, "", class: "login-text-input") +
     label_tag(:password, 'Password:') +
     password_field_tag(:password, "", class: "login-text-input") +
     submit_tag('Login', id: "login-button")
     end
-    login_form = escape_javascript login_form
+    login_form = escape_javascript(login_form)
 %>
 
 <%
     sign_up_form = form_tag('/users', method: 'post', id: "sign-up-form") do
+        content_tag(:p, "Already Registered?", class:"user-login form-option") +
         label_tag(:name, 'Name:') +
         text_field_tag(:name, "", class: "login-text-input") +
         label_tag(:email, 'Email:') +
